@@ -2,7 +2,7 @@
 
 
 
-View the live project here: <https://renaschott.github.io/Project1-J.E.Hummel/>
+View the live project here: <https://renaschott.github.io/Project2-JSGame/>
 
 ## UX
 
@@ -122,7 +122,7 @@ The deployment was done using <https://github.com/>
     - Finally push the save button
   - From now onwards the deployed site can be visited using the link provided on top of the page
 
-The link to the live page can be found here: [Johann Erdmann Hummel] (<https://renaschott.github.io/Project1-J.E.Hummel/>)
+The link to the live page can be found here: [JSGame] (<https://renaschott.github.io/Project2-JSGame/>)
 
 ## Credits
 
