@@ -38,7 +38,16 @@ The site wants to challenge the user in different ways using this pairing game.
 
 Here are the drawings of the wireframes:
 
-![Drawings of all pages on mobile phones](assets/readme-images/wireframe1.webp)
+![Drawing of landing page on mobile phones](assets/readme-images/wireframe1.png)
+![Drawing of modal screen on mobile phones](assets/readme-images/wireframe2.png)
+![Drawing of exemplary game set up on mobile phones](assets/readme-images/wireframe3.png)
+![Drawing of landing page on large screens](assets/readme-images/wireframe4.png)
+![Drawing of modal screen on large screens](assets/readme-images/wireframe5.png)
+![Drawing of exemplary game set up on large screens](assets/readme-images/wireframe6.png)
+
+### Flow Chart
+
+Here is the previously outlined flow chart:
 
 
 ## Features
@@ -77,6 +86,8 @@ Here are the drawings of the wireframes:
 ### Framework, Libraries and Programs
 
 - no frameworks and libraries were used
+- Balsamiq
+  - was used to create the wireframes
 - GIMP
   - was used to create the favicon and to edit the images
 - Google fonts
