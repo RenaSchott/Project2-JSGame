@@ -9,6 +9,7 @@ View the live project here: <https://renaschott.github.io/Project2-JSGame/>
 
 ### Site goals
 
+The site wants to challenge the user in different ways using this pairing game.
 
 
 ### User stories
