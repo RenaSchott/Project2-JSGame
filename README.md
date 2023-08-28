@@ -48,6 +48,7 @@ Here are the drawings of the wireframes:
 ### Flow Chart
 
 Here is the previously outlined flow chart:
+
 ![Drawn flow chart of the project](assets/readme-images/flow-chart.png)
 
 ## Features
