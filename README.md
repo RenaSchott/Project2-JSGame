@@ -48,7 +48,7 @@ Here are the drawings of the wireframes:
 ### Flow Chart
 
 Here is the previously outlined flow chart:
-
+![Drawn flow chart of the project](assets/readme-images/flow-chart.png)
 
 ## Features
 
@@ -88,6 +88,8 @@ Here is the previously outlined flow chart:
 - no frameworks and libraries were used
 - Balsamiq
   - was used to create the wireframes
+- Lucidchart
+  - was used to create the flow chart
 - GIMP
   - was used to create the favicon and to edit the images
 - Google fonts
