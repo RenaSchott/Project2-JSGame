@@ -16,11 +16,23 @@ The site wants to challenge the user in different ways using this pairing game.
 
 #### As a visitor
 
-- I want to 
+- I want to find the rules of the game easily
+- I want to get a fast overview of the possible game options
+- I want to adjust different options to my skill level
+- I want to be able to get better and adjust the game
+- I want to play a fun game
+- I want to keep track of the score
+- I want to be able to practice
+- I want to improve my score
+- I want to be entertained
 
 #### As the administrator
 
-- I want to 
+- I want to be able to adjust the game if needed
+- I want to be able to expand the game
+- I want to be able to easily add new option to the game
+- I want to be able to easily add new features to the existing game
+- I want to be able to make visual adjustments
 
 ### Wireframes
 
