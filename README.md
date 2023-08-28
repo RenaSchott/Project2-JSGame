@@ -1,6 +1,7 @@
 # Find the matching pair
 
-
+This JavaScript game should be a little challange for the brain. The game should test the visual 
+memory of the user with different levels of difficulty for the user to choose. 
 
 View the live project here: <https://renaschott.github.io/Project2-JSGame/>
 
