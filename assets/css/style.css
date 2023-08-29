@@ -13,14 +13,10 @@ body{
 }
 
 
-h1{
-
-}
-
-h2 {
-
+h1, h2{
+    text-transform: uppercase;
 }
 
 p{
-    
+    text-align: justify;
 }
