@@ -91,8 +91,10 @@ Here is the previously outlined flow chart:
   - was used to create the wireframes
 - Lucidchart
   - was used to create the flow chart
+- Inkscape
+  - was used to create the favicon
 - GIMP
-  - was used to create the favicon and to edit the images
+  - was used to edit the favicon and to edit the images
 - Google fonts
   - was used for integrating fonts
 - GitHub
