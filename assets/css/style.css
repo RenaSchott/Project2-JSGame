@@ -25,7 +25,7 @@ h1, h2, h3 {
 /* Index page */
 /* Header */
 #header {
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     background: rgb(95, 13, 13);
     display: flex;
@@ -34,7 +34,7 @@ h1, h2, h3 {
 }
  
 #header > img {
-    height: 9vh;
+    height: 7vh;
     margin:0 1rem;
 }
 
