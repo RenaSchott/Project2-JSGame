@@ -16,9 +16,10 @@ body{
 }
 
 
-h1, h2{
+h1, h2, h3{
     text-transform: uppercase;
     color: rgb(61, 59, 59);
+    align-items: center;
 }
 
 p{
