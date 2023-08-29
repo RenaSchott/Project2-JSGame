@@ -159,7 +159,7 @@ The link to the live page can be found here: [JSGame] (<https://renaschott.githu
 The content of this project was inspired by the 
 ### Media
 
-Images were taken from <https://www.pexels.com>.
+Animal images were taken from <https://www.pexels.com>.
 The social media icons were taken from <https://fontawesome.com/>.
 The generic 404 page from project 1 was reused here.
 
