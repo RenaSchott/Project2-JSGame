@@ -22,6 +22,10 @@ h1, h2, h3 {
     text-align: center;
 }
 
+button > a {
+    text-decoration: none;
+}
+
 /* Index page */
 /* Header */
 #header {
