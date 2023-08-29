@@ -22,6 +22,15 @@ h1, h2, h3 {
     text-align: center;
 }
 
+button {
+    font-size: 100%;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+    background-color: aqua;
+    border-radius: 12px;
+}
+
 button > a {
     text-decoration: none;
 }
