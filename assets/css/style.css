@@ -11,14 +11,36 @@
 body{
     font-family: 'Sedgwick Ave Display';
     background-image: url(../images/background.webp);
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 
 h1, h2{
     text-transform: uppercase;
+    color: rgb(61, 59, 59);
 }
 
 p{
     text-align: justify;
 }
 
+/* Index page */
+/* Header */
+#header {
+    height: 10vh;
+    width: 100%;
+    background: rgb(95, 13, 13);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+#header > img{
+    height: 9vh;
+    margin:0 1rem;
+}
+
+#header > h2{
+    font-si
+}
