@@ -8,7 +8,7 @@
 }
 
 /* General styles */
-body{
+body {
     font-family: 'Sedgwick Ave Display';
     background-image: url(../images/background.webp);
     min-height: 100vh;
@@ -16,15 +16,10 @@ body{
 }
 
 
-h1, h2, h3{
+h1, h2, h3 {
     text-transform: uppercase;
     color: rgb(61, 59, 59);
     text-align: center;
-}
-
-p{
-    text-align: justify;
-    margin: 10px;
 }
 
 /* Index page */
@@ -38,11 +33,24 @@ p{
     align-items: center;
 }
  
-#header > img{
+#header > img {
     height: 9vh;
     margin:0 1rem;
 }
 
-#header > h2{
+#header > h2 {
     font-si
 }
+
+/* Main section */
+p {
+    text-align: justify;
+    margin: 10px;
+}
+
+ul {
+    text-align: justify;
+    margin: 0 10px 0 20px;
+}
+
+/* Footer */
