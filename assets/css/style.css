@@ -54,3 +54,11 @@ ul {
 }
 
 /* Footer */
+footer {
+    height: 8vh;
+    width: 100%;
+    background: rgb(95, 13, 13);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
