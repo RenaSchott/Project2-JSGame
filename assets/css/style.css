@@ -1,8 +1,13 @@
+/* Google font family import */
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
-*
+/* Override default styles added by the browser */
+* {
+    margin: 0;
+    padding: 0;
+}
 
-
+/* General styles */
 body{
     font-family: 'Sedgwick Ave Display';
 }
