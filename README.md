@@ -161,6 +161,7 @@ The content of this project was inspired by the
 
 The hero image 
 The social media icons were taken from <https://fontawesome.com/>.
+The generic 404 page from project 1 was reused here.
 
 ## Acknowledgements
 
