@@ -185,25 +185,20 @@ footer > i {
     
     .buttons {
         font-size: 210%;
-        margin: 15px;
     }
         
     /* Index page */
     /* header */
     #header {
-        height: 15vh;
+        height: 15%;
     }
     
     main {
         padding-bottom: 12vh;
     }
-
-
-    
+  
     footer {
-        height: 12vh;
-        position: fixed;
-        bottom: 0;
+        height: 5%;
     }
 }
     
