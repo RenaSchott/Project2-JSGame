@@ -144,8 +144,14 @@ footer > i {
         height: 15vh;
     }
 
+    main {
+        padding-bottom: 12vh;
+    }
+
     footer {
         height: 12vh;
+        position: fixed;
+        bottom: 0;
     }
 }
 
