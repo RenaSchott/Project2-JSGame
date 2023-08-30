@@ -1,23 +1,22 @@
 # Find the matching pair
 
-This JavaScript game should be a little challange for the brain. The game should test the visual 
-memory of the user with different levels of difficulty for the user to choose. 
+This JavaScript game should be a little challange for the brain. The game should test the visual
+memory of the user with different levels of difficulty for the user to choose.
 
 View the live project here: <https://renaschott.github.io/Project2-JSGame/>
 
 ## Table of content
 
-- [UUX](##UX)
-- [Indent](#indent)
-- [Center](#center)
-- [Color](#color)
+- [UX](## UX)
+- [Site goals](### Site goals)
+- [User stories](### User stories)
+- [As a visitor](####As a visitor)
 
 ## UX
 
 ### Site goals
 
 The site wants to challenge the user in different ways using this pairing game.
-
 
 ### User stories
 
@@ -62,26 +61,23 @@ Here is the previously outlined flow chart:
 
 - **Header and Navigation**
 
-    - The Header
-    
+  - The Header
+
 ![screenshot of the header](assets/readme-images/header.png)
 
 - **Footer**
 
-  - The footers 
+  - The footers
 
 ![screenshot of the footer](assets/readme-images/footer.png)
 
 - **Index page**
 
-  - 
+  -
+
 ![screenshot of the index page](assets/readme-images/index.png)
 
-
-
 ### Features left to implement
-
-
 
 ## Used Technologies
 
@@ -124,6 +120,7 @@ Here is the previously outlined flow chart:
 ## Testing
 
 NOCH ÜBERARBEITEN
+
 - The site was tested on different browsers: Chrome and Firefox.
 - The DevTools confirmed that the page looks good and is functional on different screen sizes.
 - I confirmed that the page is readable.
@@ -136,13 +133,13 @@ NOCH ÜBERARBEITEN
   -
   
 - **CSS**
-  - 
+  -
 
 - **Accessibility**
-  - 
+
+  -
 
 ### Unfixed bugs
-
 
 ## Deployment
 
@@ -167,6 +164,7 @@ The link to the live page can be found here: [JSGame] (<https://renaschott.githu
 
 The content of this project was inspired by the Love Math project, the content of the course
 <https://www.markdownguide.org>
+
 ### Media
 
 Animal images were taken from <https://www.pexels.com>.
