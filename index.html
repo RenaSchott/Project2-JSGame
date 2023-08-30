@@ -1,90 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Meta tags for search engines -->
-    <meta name="description"
-        content="Watch at single memory tiles for a specific time. Aftwards a related tile is revealed and you have to find the matching one.">
-    <meta name="keywords"
-        content="Pairs, memory alternative, tiles, game">
-    <meta name="author" content="RTS">
+    <meta
+      name="description"
+      content="Watch at single memory tiles for a specific time. Aftwards a related tile is revealed and you have to find the matching one."
+    />
+    <meta name="keywords" content="Pairs, memory alternative, tiles, game" />
+    <meta name="author" content="RTS" />
     <!-- Title -->
     <title>Pairs - a JS Game</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/fav-icons/apple-touch-icon.png" type="image/x-icon">
-    <link rel="shortcut icon" href="assets/fav-icons/favicon-32x32.png" type="image/x-icon">
-    <link rel="shortcut icon" href="assets/fav-icons/favicon-16x16.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/fav-icons/apple-touch-icon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/fav-icons/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/fav-icons/favicon-16x16.png"
+      type="image/x-icon"
+    />
     <!-- Fontawesome Icons -->
-    <script src="https://kit.fontawesome.com/b5633ebce6.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/b5633ebce6.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
     <!-- Header Section -->
     <header>
-        <div id="header">
-            <img src="assets/images/logo.webp" alt="Logo">
-            <h1>Pairs</h1>
-            <img src="assets/images/logo.webp" alt="Logo">
-        </div>
+      <div id="header">
+        <img src="assets/images/logo.webp" alt="Logo" />
+        <h1>Pairs</h1>
+        <img src="assets/images/logo.webp" alt="Logo" />
+      </div>
     </header>
 
     <!-- Main Section -->
     <main>
-        <div>
-            <h2>Pairs</h2>
+      <div>
+        <h2>Pairs</h2>
+      </div>
+      <div id="main">
+        <!-- Game explanation -->
+        <div id="game-explanation">
+          <h3>Game Explanation</h3>
+          <p>
+            The game Pairs is an appealing alternative to a traditional memory
+            game for adults. The pictures used show animals. Practizing Pairs on
+            a regular basis could be a nice brain exercise. You can improve your
+            score or time or you can play around with the different options. In
+            short you can look at different images and afterwards you have to
+            find out where the wanted tile is.
+          </p>
         </div>
-        <div id="main">
-            <!-- Game explanation -->
-            <div id="game-explanation">
-                <h3>Game Explanation</h3>
-                <p>The game Pairs is an appealing alternative to a traditional memory game for adults. The pictures used show
-                    animals.
-                    Practizing Pairs on a regular basis could be a nice brain exercise. You can improve your score or time or
-                    you can
-                    play around with the different options. In short you can look at different images and afterwards you have to
-                    find
-                    out where the wanted tile is.</p>
-            </div>
-            <!-- Game rules -->
-            <div id="game-rules">
-                <h3>Game Rules</h3>
-                <p>After reading the rules carefully push the button "Go to game" below this text. From there you will find yourself
-                    at the game page. But before you can start a game you have to choose from the different option available. </p>
-                <ul>
-                    <li>
-                        Choose from the dropdown menu how many tiles should be displayed.
-                    </li>
-                    <li>
-                        Choose how long you want to look at these tiles.
-                    </li>
-                    <li>
-                        Choose how you want the comparison tile (same picture, letters
-                        <!--or animal sound-->)
-                    </li>
-                </ul>
-                <p>After you have chosen your wanted options start the game. The timer above the shown tiles counts down the wanted
-                time for remember the tiles and their position. As soon as the time runs out. The animal tiles are turned and
-                the comparison tile is revealed. Your time for thinking is will be counted by timer 2. As soon as you click on a
-                turned tile the answer is revealed. From there you can continue playing the game or go back to change the options.
-                </p>
-            </div>
+        <!-- Game rules -->
+        <div id="game-rules">
+          <h3>Game Rules</h3>
+          <p>
+            After reading the rules carefully push the button "Go to game" below
+            this text. From there you will find yourself at the game page. But
+            before you can start a game you have to choose from the different
+            option available.
+          </p>
+          <ul>
+            <li>
+              Choose from the dropdown menu how many tiles should be displayed.
+            </li>
+            <li>Choose how long you want to look at these tiles.</li>
+            <li>
+              Choose how you want the comparison tile (same picture, letters
+              <!--or animal sound-->)
+            </li>
+          </ul>
+          <p>
+            After you have chosen your wanted options start the game. The timer
+            above the shown tiles counts down the wanted time for remember the
+            tiles and their position. As soon as the time runs out. The animal
+            tiles are turned and the comparison tile is revealed. Your time for
+            thinking is will be counted by timer 2. As soon as you click on a
+            turned tile the answer is revealed. From there you can continue
+            playing the game or go back to change the options.
+          </p>
         </div>
-        <div class="buttons">
-            <button><a href="game.html">Go to game</a></button>
-        </div>
+      </div>
+      <div class="buttons">
+        <button><a href="game.html">Go to game</a></button>
+      </div>
     </main>
 
     <!-- Footer Section-->
     <footer>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-square-instagram"></i>
-        <i class="fa-brands fa-square-x-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-square-instagram"></i>
+      <i class="fa-brands fa-square-x-twitter"></i>
     </footer>
-    
+
     <!-- Script -->
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>

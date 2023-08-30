@@ -1,67 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Meta tags for search engines -->
-    <meta name="description"
-        content="Watch at single memory tiles for a specific time. Aftwards a related tile is revealed and you have to find the matching one.">
-    <meta name="keywords" content="Pairs, memory alternative, tiles, game">
-    <meta name="author" content="RTS">
+    <meta
+      name="description"
+      content="Watch at single memory tiles for a specific time. Aftwards a related tile is revealed and you have to find the matching one."
+    />
+    <meta name="keywords" content="Pairs, memory alternative, tiles, game" />
+    <meta name="author" content="RTS" />
     <!-- Title -->
     <title>Pairs - a JS Game</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/fav-icons/apple-touch-icon.png" type="image/x-icon">
-    <link rel="shortcut icon" href="assets/fav-icons/favicon-32x32.png" type="image/x-icon">
-    <link rel="shortcut icon" href="assets/fav-icons/favicon-16x16.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/fav-icons/apple-touch-icon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/fav-icons/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/fav-icons/favicon-16x16.png"
+      type="image/x-icon"
+    />
     <!-- Fontawesome Icons -->
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Header Section -->
-    <header>
-        
-    </header>
+    <header></header>
 
     <!-- Main Section -->
     <main>
-        <!-- Includes Modal for different game options -->
-        <!-- Inspired by https://www.w3schools.com/howto/howto_css_modals.asp -->
-        <div class="buttons">
-            <button id="go-to-game">Game Options</button>
+      <!-- Includes Modal for different game options -->
+      <!-- Inspired by https://www.w3schools.com/howto/howto_css_modals.asp -->
+      <div class="buttons">
+        <button id="go-to-game">Game Options</button>
+      </div>
+      <!-- Modal for selection different game mods -->
+      <div id="game-mods" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Choose game options</h2>
+          <h3>How many tiles do you want to look at?</h3>
+          <select id="card-number" name="card-number">
+            <option value="4">4</option>
+            <option value="6">6</option>
+            <option value="8">8</option>
+          </select>
+          <h3>How much time for remembering these tiles do you need?</h3>
+          <select id="time-needed" name="time-needed">
+            <option value="00:10">00:10</option>
+            <option value="00:20">00:20</option>
+            <option value="00:30">00:30</option>
+          </select>
+          <h3>What kind of comparison tile do you want?</h3>
+          <select id="comp-tile" name="comp-tile">
+            <option value="text">text</option>
+            <option value="same-card">tile</option>
+            <option value="comp-all">suprise</option>
+          </select>
         </div>
-        <!-- Modal for selection different game mods -->
-        <div id="game-mods" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Choose game options</h2>
-                <h3>How many tiles do you want to look at?</h3>
-                <select id="card-number" name="card-number">
-                    <option value="4">4</option>
-                    <option value="6">6</option>
-                    <option value="8">8</option>
-                </select>
-                <h3>How much time for remembering these tiles do you need?</h3>
-                <select id="time-needed" name="time-needed">
-                    <option value="00:10">00:10</option>
-                    <option value="00:20">00:20</option>
-                    <option value="00:30">00:30</option>
-                </select>
-                <h3>What kind of comparison tile do you want?</h3>
-                <select id="comp-tile" name="comp-tile">
-                    <option value="text">text</option>
-                    <option value="same-card">tile</option>
-                </select>
-            </div>
-        </div>
-        
-        <!-- Animal images collection for for displaying as selection -->
-        <!--
+      </div>
+
+      <!-- Animal images collection for for displaying as selection -->
+      <!--
         <div id="animal-images">
             <div class="cat">
                 <img src="assets/images/cat.webp" alt="white cat">
@@ -89,8 +101,8 @@
             </div>
         </div>
         -->
-        <!-- Images and Animalnames for comparison -->
-        <!--
+      <!-- Images and Animalnames for comparison -->
+      <!--
         <div id="comparison-animals">
             <div class="cat">
                 <img src="assets/images/cat.webp" alt="white cat">
@@ -126,15 +138,15 @@
             </div>
         </div>
         -->
+      <div class="buttons">
+        <button><a href="index.html">Rules</a></button>
+      </div>
     </main>
 
     <!-- Footer Section-->
-    <footer>
-        besser verstecken als löschen
-    </footer>
+    <footer></footer>
 
     <!-- Script -->
     <script src="assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>
