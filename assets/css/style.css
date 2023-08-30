@@ -193,10 +193,12 @@ footer > i {
         height: 15%;
     }
     
+    /* Main */
     main {
         padding-bottom: 12vh;
     }
-  
+    
+    /* Footer */
     footer {
         height: 5%;
     }
@@ -205,5 +207,18 @@ footer > i {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px){
+     /* Index page */
+    #main {
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+    }
+  
+    #game-explanation, #game-rules {
+        max-width: 45 %;
+    }
 
+    
+
+ 
 }
