@@ -10,7 +10,7 @@
 /* General styles */
 body {
     font-family: 'Sedgwick Ave Display';
-    background-image: url(../images/background.webp);
+    background-color: beige;
     min-height: 100vh;
     min-width: 100vw;
 }
@@ -189,8 +189,24 @@ footer > i {
         font-size: 210%;
         margin: 15px;
     }
+        
+    /* Index page */
+    /* header */
+    #header {
+        height: 15vh;
+    }
     
+    main {
+        padding-bottom: 12vh;
+    }
+
+
     
+    footer {
+        height: 12vh;
+        position: fixed;
+        bottom: 0;
+    }
 }
     
 
