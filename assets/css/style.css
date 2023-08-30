@@ -81,6 +81,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    bottom: 0;
 }
 
 footer > i {
@@ -114,8 +116,17 @@ footer > i {
     text-align: center;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    
+    
+}
+
+
 /* Larger devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+    /* Index page */
+    /* Footer */
     
 }
 
