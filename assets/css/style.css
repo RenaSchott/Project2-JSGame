@@ -145,9 +145,12 @@ footer>i {
     cursor: pointer;
 }
 
-.select>option {
+.select {
+    width: 20px;
+    height: 20px;
     font-size: 200%;
-    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px grey;
 }
 
 
