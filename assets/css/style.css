@@ -138,6 +138,11 @@ footer > i {
         font-size: 130%;
     }
 
+    .buttons {
+        font-size: 150%;
+        margin: 10px;
+    }
+
     /* Index page */
     /* header */
     #header {
@@ -158,10 +163,34 @@ footer > i {
 
 /* Larger devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-    /* Index page */
-    /* Footer */
+/* General styling */
+    h2 {
+        margin-top: 15px;
+        font-size: 300%;
+    }
     
+    h3 {
+        font-size: 200%;
+    }
+    
+    p {
+        margin: 30px 30px;
+        font-size: 180%;
+    }
+    
+    ul {
+        margin: 30px 40px;
+        font-size: 180%;
+    }
+    
+    .buttons {
+        font-size: 210%;
+        margin: 15px;
+    }
+    
+   
 }
+    
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px){
