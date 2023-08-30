@@ -7,10 +7,28 @@ View the live project here: <https://renaschott.github.io/Project2-JSGame/>
 
 ## Table of content
 
-- [UX](## UX)
-- [Site goals](### Site goals)
-- [User stories](### User stories)
-- [As a visitor](#as-a-visitor)
+- [Find the matching pair](#find-the-matching-pair)
+  - [Table of content](#table-of-content)
+  - [UX](#ux)
+    - [Site goals](#site-goals)
+    - [User stories](#user-stories)
+      - [As a visitor](#as-a-visitor)
+      - [As the administrator](#as-the-administrator)
+    - [Wireframes](#wireframes)
+    - [Flow Chart](#flow-chart)
+  - [Features](#features)
+    - [Features left to implement](#features-left-to-implement)
+  - [Used Technologies](#used-technologies)
+    - [Languages Used](#languages-used)
+    - [Framework, Libraries and Programs](#framework-libraries-and-programs)
+  - [Testing](#testing)
+    - [Validator testing](#validator-testing)
+    - [Unfixed bugs](#unfixed-bugs)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
 
 ## UX
 
@@ -59,7 +77,7 @@ Here is the previously outlined flow chart:
 
 ## Features
 
-- **Header and Navigation**
+- **Header**
 
   - The Header
 
