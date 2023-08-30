@@ -118,11 +118,35 @@ footer > i {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+    /* General styling */
     h2 {
         margin-top: 10px;
         font-size: 200%;
     }
     
+    h3 {
+        font-size: 130%;
+    }
+
+    p {
+        margin: 10px 20px;
+        font-size: 130%;
+    }
+
+    ul {
+        margin: 10px 30px;
+        font-size: 130%;
+    }
+
+    /* Index page */
+    /* header */
+    #header {
+        height: 15vh;
+    }
+
+    footer {
+        height: 12vh;
+    }
 }
 
 
