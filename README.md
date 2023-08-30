@@ -20,7 +20,7 @@ The site wants to challenge the user in different ways using this pairing game.
 
 ### User stories
 
-#### As a visitor (#as-a-visitor)
+#### As a visitor
 
 - I want to find the rules of the game easily
 - I want to get a fast overview of the possible game options
@@ -120,6 +120,10 @@ Here is the previously outlined flow chart:
 ## Testing
 
 NOCH ÜBERARBEITEN
+
+| so geht eine Liste | nicht wahr |
+|--------------------|----------- |
+| ja                 | das passt  |
 
 - The site was tested on different browsers: Chrome and Firefox.
 - The DevTools confirmed that the page looks good and is functional on different screen sizes.
