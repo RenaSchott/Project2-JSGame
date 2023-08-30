@@ -16,7 +16,9 @@ body {
 }
 
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-transform: uppercase;
     color: rgb(61, 59, 59);
     text-align: center;
@@ -32,7 +34,7 @@ button {
     margin: 5px;
 }
 
-button > a {
+button>a {
     text-decoration: none;
 }
 
@@ -52,13 +54,13 @@ button > a {
     justify-content: space-between;
     align-items: center;
 }
- 
-#header > img {
+
+#header>img {
     height: 7vh;
-    margin:0 1rem;
+    margin: 0 1rem;
 }
 
-#header > h2 {
+#header>h2 {
     font-si
 }
 
@@ -85,10 +87,10 @@ footer {
     bottom: 0;
 }
 
-footer > i {
+footer>i {
     margin: 1rem;
     font-size: 200%;
-    color:rgb(61, 59, 59);
+    color: rgb(61, 59, 59);
 }
 
 
@@ -143,6 +145,11 @@ footer > i {
     cursor: pointer;
 }
 
+.select>option {
+    font-size: 200%;
+    align-items: center;
+}
+
 
 /* Error pages */
 #error-image {
@@ -170,12 +177,13 @@ footer > i {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+
     /* General styling */
     h2 {
         margin-top: 10px;
         font-size: 200%;
     }
-    
+
     h3 {
         font-size: 130%;
     }
@@ -215,62 +223,65 @@ footer > i {
 
 /* Larger devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-/* General styling */
+
+    /* General styling */
     h2 {
         margin-top: 15px;
         font-size: 300%;
     }
-    
+
     h3 {
         font-size: 200%;
     }
-    
+
     p {
         margin: 30px 30px;
         font-size: 180%;
     }
-    
+
     ul {
         margin: 30px 40px;
         font-size: 180%;
     }
-    
+
     .buttons {
         font-size: 210%;
     }
-        
+
     /* Index page */
     /* header */
     #header {
         height: 15%;
     }
-    
+
     /* Main */
     main {
         padding-bottom: 12vh;
     }
-    
+
     /* Footer */
     footer {
         height: 5%;
     }
 }
-    
+
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px){
-     /* Index page */
+@media screen and (min-width: 992px) {
+
+    /* Index page */
     #main {
         display: flex;
         flex-direction: row;
         margin: 20px;
     }
-  
-    #game-explanation, #game-rules {
+
+    #game-explanation,
+    #game-rules {
         max-width: 45 %;
     }
 
-    
 
- 
+
+
 }
