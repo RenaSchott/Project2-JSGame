@@ -27,3 +27,92 @@ window.onclick = function (event) {
 /**
  * Start game
  */
+function runGame() {
+
+}
+
+/**
+ * Timer 1 countdown - User can choose between different 
+ */
+function timerOne() {
+
+}
+
+/**
+ * Card numbers - User can choose between different tile numbers
+ */
+function cardNumber() {
+
+}
+
+/**
+ * Comparison option - User can choose between tile and text
+ */
+function comparisonOption() {
+
+}
+
+/**
+ * Generating game from the users choices
+ */
+function generatingGame() {
+
+}
+
+/**
+ * Timer 1 counts down
+ */
+function timerOneCountDown() {
+
+}
+
+/**
+ * Animal Tiles flipping - showing the back
+ */
+function tileFlipping() {
+
+}
+
+/**
+ * Timmer Two starts counting
+ */
+function timerOneCountDown() {
+
+}
+
+/**
+ * Comparison tile is flipping showing the users choice
+ */
+function comparisonTile() {
+
+}
+
+/**
+ * Evaluating users guess
+ */
+function guess() {
+
+}
+
+/**
+ * Showing correct answer to user
+ */
+function result() {
+
+}
+
+/**
+ * Adding point for correct answer
+ */
+function correctAnswer() {
+
+}
+
+
+/**
+ * Adding point for incorrect answer
+ */
+function incorrectAnswer() {
+
+}
+
