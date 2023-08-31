@@ -127,8 +127,7 @@ footer>i {
 /* The Close Button */
 .close {
     color: #aaaaaa;
-    float: right;
-    font-size: 25px;
+    font-size: 120%;
     font-weight: bold;
 }
 
@@ -152,8 +151,7 @@ footer>i {
 
 #modal-button {
     margin-top: 25px;
-    font-size: 80%;
-    margin-left: 40%;
+    margin-left: 35%;
 }
 
 /* Score area - inspired by Love Math project */
