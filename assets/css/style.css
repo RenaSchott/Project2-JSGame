@@ -199,7 +199,6 @@ footer>i {
 
     footer {
         height: 12vh;
-        position: fixed;
         bottom: 0;
     }
 }
@@ -240,7 +239,7 @@ footer>i {
 
     /* Main */
     main {
-        padding-bottom: 12vh;
+        padding-bottom: 3vh;
     }
 
     /* Footer */
