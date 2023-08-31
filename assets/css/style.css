@@ -145,6 +145,11 @@ footer>i {
     margin-left: 8rem;
 }
 
+.modal h2, 
+.modal h3 {
+    padding: 15px;
+}
+
 /* Score area - inspired by Love Math project */
 .score-area {
     margin: 5px auto;
@@ -218,7 +223,6 @@ footer>i {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-
     /* General styling */
     h2 {
         margin-top: 10px;
@@ -258,6 +262,19 @@ footer>i {
         height: 12vh;
         bottom: 0;
     }
+
+    /* Game page */
+    /* Modal */
+    .select {
+        font-size: 100%;
+        box-shadow: 2px 2px grey;
+        margin-left: 8rem;
+    }
+
+    .modal h2, 
+    .modal h3 {
+    padding: 15px;
+}
 }
 
 
