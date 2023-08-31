@@ -62,8 +62,29 @@ function generatingGame() {
 /**
  * Timer 1 counts down
  */
-function timerOneCountDown() {
-
+// Inspired by https://codepen.io/awkay/pen/ExzGea
+var timer; 
+var timeLeft = timerOne;
+function timerOneCountDown(){
+    timeLeft = timeLeft - 1;
+    if(timeLeft >= 0)
+      $('#timer').html(timeLeft);
+    else {
+      tileFlipping() && timerTwoCounting();
+    }
+}
+function start() {
+  // setInterval is a built-in function that will call the given function
+  // every N milliseconds (1 second = 1000 ms)
+  timer = setInterval(timerOneCountDown, 1000);
+  // It will be a whole second before the time changes, so we'll call the update
+  // once ourselves
+  timerOneCountDown();
+}
+// What to do when the timer runs out
+function gameOver() {
+    // This cancels the setInterval, so the updateTimer stops getting called
+    cancelInterval(timer);
 }
 
 /**
@@ -73,14 +94,14 @@ function timerOneCountDown() {
 function tileFlipping() {
 
 }
-document.getElementByClassName("flip").click(function() {
+document.getElementByClassName("flip").timerOneCountDown(function() {
     document.getElementByClassName("card").classList.toggle("flipped");
   });
 
 /**
  * Timmer Two starts counting
  */
-function timerOneCountDown() {
+function timerTwoCounting() {
 
 }
 
