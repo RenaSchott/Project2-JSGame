@@ -134,6 +134,22 @@ footer>i {
     margin-left: 8rem;
 }
 
+/* Score area - inspired by Love Math project */
+.score-area {
+    margin: 5px auto;
+    width: 80%;
+    font-size: 120%;
+}
+
+#correct {
+    color: green;
+    font-weight: bold;
+}
+
+#incorrect {
+    color: red;
+    font-weight: bold;
+}
 
 /* Error pages */
 #error-image {
