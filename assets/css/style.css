@@ -336,7 +336,6 @@ footer>i {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-
     /* Index page */
     #main {
         display: flex;
@@ -353,13 +352,12 @@ footer>i {
     /* Modal */
     .select {
         font-size: 200%;
-        margin-left: 20rem;
+        margin-left: 50rem;
     }
     
     #modal-button {
-        margin-top:30px;
-        font-size: 120%;
+        margin-top:35px;
+        font-size: 200%;
+        margin-left: 45%
     }
-
-
 }
