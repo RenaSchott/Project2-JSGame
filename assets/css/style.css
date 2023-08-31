@@ -154,6 +154,14 @@ footer>i {
     margin-left: 35%;
 }
 
+.timer {
+    margin-top: 25px;
+    margin-left: 40%;
+    font-size: 150%;
+    color: red;
+    background-color: #6d4ace;
+}
+
 /* Score area - inspired by Love Math project */
 .score-area {
     margin: 5px auto;
