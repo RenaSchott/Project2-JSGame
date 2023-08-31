@@ -78,6 +78,10 @@ ul {
     margin: 0 10px 0 20px;
 }
 
+main {
+    margin-bottom: 60px;
+}
+
 /* Footer */
 footer {
     height: 7vh;
@@ -86,7 +90,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
