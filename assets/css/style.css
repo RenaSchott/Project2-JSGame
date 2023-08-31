@@ -380,4 +380,10 @@ footer>i {
         font-size: 200%;
         margin-left: 45%
     }
+
+    /* Timer */
+    .timer {
+        margin-top: 38px;
+        font-size: 300%;
+    }
 }
