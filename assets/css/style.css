@@ -345,6 +345,12 @@ footer>i {
         margin-top:35px;
         font-size: 180%;
     }
+
+    /* Timer */
+    .timer {
+        margin-top: 35px;
+        font-size: 280%;
+    }
 }
 
 
