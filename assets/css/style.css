@@ -285,7 +285,6 @@ footer>i {
 
 /* Larger devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-
     /* General styling */
     h2 {
         margin-top: 15px;
@@ -325,6 +324,13 @@ footer>i {
     footer {
         height: 5%;
     }
+
+    /* Game page */
+    /* Modal */    
+    #modal-button {
+        margin-top:35px;
+        font-size: 180%;
+    }
 }
 
 
@@ -343,7 +349,17 @@ footer>i {
         max-width: 45 %;
     }
 
-
+    /* Game page */
+    /* Modal */
+    .select {
+        font-size: 200%;
+        margin-left: 20rem;
+    }
+    
+    #modal-button {
+        margin-top:30px;
+        font-size: 120%;
+    }
 
 
 }
