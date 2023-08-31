@@ -67,11 +67,15 @@ function timerOneCountDown() {
 }
 
 /**
- * Animal Tiles flipping - showing the back
+ * Animal Tiles flipping - showing the back 
  */
+//Inspired by https://stackoverflow.com/questions/66449563/flipping-all-cards-but-want-to-flip-one-by-one
 function tileFlipping() {
 
 }
+document.getElementByClassName("flip").click(function() {
+    document.getElementByClassName("card").classList.toggle("flipped");
+  });
 
 /**
  * Timmer Two starts counting
