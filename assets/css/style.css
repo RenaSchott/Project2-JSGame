@@ -154,6 +154,7 @@ footer>i {
     margin-left: 35%;
 }
 
+/* Timer */
 .timer {
     margin-top: 25px;
     margin-left: 40%;
@@ -285,6 +286,13 @@ footer>i {
     #modal-button {
         margin-top:30px;
         font-size: 120%;
+    }
+
+    /* Timer */
+    .timer {
+        margin-top: 30px;
+        margin-left: 45%;
+        font-size: 250%;
     }
 }
 
