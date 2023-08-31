@@ -188,6 +188,8 @@ The link to the live page can be found here: [JSGame] (<https://renaschott.githu
 
 The content of this project was inspired by the Love Math project, the content of the course
 <https://www.markdownguide.org>
+<https://developer.mozilla.org>
+<https://www.w3schools.com/>
 <https://codepen.io/awkay/pen/ExzGea>
 <https://stackoverflow.com/questions/66449563/flipping-all-cards-but-want-to-flip-one-by-one>
 
