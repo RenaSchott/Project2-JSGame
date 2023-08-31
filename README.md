@@ -120,10 +120,12 @@ Here is the previously outlined flow chart:
   - was used for integrating fonts
 - GitHub
   - was used to store and deploy the project site
-- Codeanywhere
+- Codeanywhere/Gitpod
   - was used to write the code and commit it to GitHub
 - Fontawesome
   - was used for the social media icons
+- Workversatile
+  - was used to convert jQuery code into JS
 - Am I responsive
   - was used to check the responsiveness of the website
 - DevTools
