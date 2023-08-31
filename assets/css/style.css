@@ -272,15 +272,14 @@ footer>i {
     /* Game page */
     /* Modal */
     .select {
-        font-size: 100%;
-        box-shadow: 2px 2px grey;
-        margin-left: 8rem;
+        font-size: 150%;
+        margin-left: 20rem;
     }
-
-    .modal h2, 
-    .modal h3 {
-    padding: 15px;
-}
+    
+    #modal-button {
+        margin-top:30px;
+        font-size: 120%;
+    }
 }
 
 
