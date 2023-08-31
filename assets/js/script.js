@@ -102,17 +102,19 @@ function result() {
 }
 
 /**
- * Adding point for correct answer
+ * Adding point for correct answer by getting current score from the DOM and increments it by 1 
  */
+//Inspired by Love Math project
 function correctAnswer() {
-
+    let oldScore = parseInt(document.getElementById("correct").innerText);
+    document.getElementById("correct").innerText = ++oldScore;
 }
-
 
 /**
- * Adding point for incorrect answer
+ * Adding point for incorrect answer by getting incorrect score from the DOM and increment it by 1
  */
+//inspired by Love Math project
 function incorrectAnswer() {
-
+    let oldScore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerText = ++oldScore;
 }
-
