@@ -105,9 +105,32 @@ document.getElementByClassName("flip").timerOneCountDown(function() {
 /**
  * Timmer Two starts counting
  */
+//Inspired by https://codepen.io/DevelopedByKieran/pen/JjwKbpO
 function timerTwoCounting() {
 
 }
+const minutesElement = document.getElementById("minutes");
+const secondsElement = document.getElementById("seconds");
+
+let timer;
+let minutes = 0;
+let seconds = 0;
+
+function runTimer() {
+  timer = setInterval(() => {
+    minutesElement.innerHTML = "0" + minutes + ":";
+    secondsElement.innerHTML = seconds;
+    seconds++;
+    if (seconds === 60) {
+      minutes += 1;
+      seconds = 0;
+    }
+  }, 1000);
+}
+
+runTimer();
+
+
 
 /**
  * Comparison tile is flipping showing the users choice
