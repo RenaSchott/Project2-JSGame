@@ -185,26 +185,20 @@ footer>i {
 /* Card styling / flipping inspired by https://stackoverflow.com/questions/66449563/flipping-all-cards-but-want-to-flip-one-by-one */
 #animal-images {
     display: flex;
+    flex-direction: row;
   }
 
 .card {
-    width: 200px;
-    height: 200px;
-    margin: 30px;
+    display: flex;
+    justify-content: space-around;
     transform-style: preserve-3d;
     transition: transform 1s;
-  }
-  
-.card img {
-    margin: 0;
-    display: block;
-    position: absolute;
     width: 45%;
     height: 45%;
     backface-visibility: hidden;
   }
   
-.card .back {
+.back {
     transform: rotateY( 180deg);
   }
   
