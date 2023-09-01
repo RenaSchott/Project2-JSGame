@@ -39,7 +39,7 @@ function chosenOptions(timerOne, cardNumber, comparisonOption) {
  * Timer 1 countdown - User can choose between different 
  */
 function timerOne() {
-    if()
+   
 }
 
 /**
@@ -92,18 +92,17 @@ function gameOver() {
 }
 
 /**
- * Animal Tiles flipping - showing the back 
+ * Animal Tiles flipping - showing the back
+ * function tileFlipping()  
  */
 //Inspired by https://stackoverflow.com/questions/66449563/flipping-all-cards-but-want-to-flip-one-by-one
-function tileFlipping() {
 
-}
-document.getElementByClassName("flip").timerOneCountDown(function() {
-    document.getElementByClassName("card").classList.toggle("flipped");
-  });
+//document.getElementByClassName("flip").timerOneCountDown(function() {
+    //document.getElementByClassName("card").classList.toggle("flipped");
+  //});
 
 /**
- * Timmer Two starts counting
+ * Timer Two starts counting
  */
 //Inspired by https://codepen.io/DevelopedByKieran/pen/JjwKbpO
 function timerTwoCounting() {
@@ -112,12 +111,12 @@ function timerTwoCounting() {
 const minutesElement = document.getElementById("minutes");
 const secondsElement = document.getElementById("seconds");
 
-let timer;
+let timer2;
 let minutes = 0;
 let seconds = 0;
 
 function runTimer() {
-  timer = setInterval(() => {
+  timer2 = setInterval(() => {
     minutesElement.innerHTML = "0" + minutes + ":";
     secondsElement.innerHTML = seconds;
     seconds++;
