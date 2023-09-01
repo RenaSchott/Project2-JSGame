@@ -31,11 +31,15 @@ function runGame() {
 
 }
 
+function chosenOptions(timerOne, cardNumber, comparisonOption) {
+
+}
+
 /**
  * Timer 1 countdown - User can choose between different 
  */
 function timerOne() {
-
+    if()
 }
 
 /**
@@ -62,9 +66,9 @@ function generatingGame() {
 /**
  * Timer 1 counts down
  */
-// Inspired by https://codepen.io/awkay/pen/ExzGea
+// Inspired by https://codepen.io/awkay/pen/ExzGea and https://www.javatpoint.com/javascript-select-option
 var timer; 
-var timeLeft = timerOne;
+const timeLeft = document.querySelector('#time-needed');  
 function timerOneCountDown(){
     timeLeft = timeLeft - 1;
     if(timeLeft >= 0)
