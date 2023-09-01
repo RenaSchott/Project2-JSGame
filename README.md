@@ -193,6 +193,7 @@ The content of this project was inspired by the Love Math project, the content o
 <https://codepen.io/awkay/pen/ExzGea>
 <https://stackoverflow.com/questions/66449563/flipping-all-cards-but-want-to-flip-one-by-one>
 <https://codepen.io/rebellionwebdesign/pen/zYMJLyj>
+<https://www.javatpoint.com/javascript-select-option>
 
 ### Media
 
