@@ -24,6 +24,7 @@ window.onclick = function (event) {
     }
 };
 
+
 /**
  * Start game
  */
