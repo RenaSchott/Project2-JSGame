@@ -38,42 +38,47 @@
     <main>
       <!-- Includes Modal for different game options -->
       <!-- Inspired by https://www.w3schools.com/howto/howto_css_modals.asp -->
-      <div class="buttons">
-        <button id="go-to-game">Game Options</button>
-      </div>
-      <!-- Modal for selection different game mods -->
-      <div id="game-mods" class="modal">
-        <div class="modal-content">
-          <h2>Choose game options</h2>
-          <h3>How many tiles do you want to look at?</h3>
-          <select class="select" id="card-number" name="card-number">
-            <option value="4">4</option>
-            <option value="6">6</option>
-            <option value="8">8</option>
-          </select>
-          <h3>How much time for remembering these tiles do you need?</h3>
-          <select class="select" id="time-needed" name="time-needed">
-            <option value="00:10">00:10</option>
-            <option value="00:20">00:20</option>
-            <option value="00:30">00:30</option>
-          </select>
-          <h3>What kind of comparison tile do you want?</h3>
-          <select class="select" id="comp-tile" name="comp-tile">
-            <option value="text">text</option>
-            <option value="same-card">tile</option>
-            <option value="comp-all">suprise</option>
-          </select>
-          <button class="buttons" id="modal-button">
-            <span class="close">Start Game</span>
-          </button>
+      <section>
+        <div class="buttons">
+          <button id="go-to-game">Game Options</button>
         </div>
-      </div>
+        <!-- Modal for selection different game mods -->
+        <div id="game-mods" class="modal">
+          <div class="modal-content">
+            <h2>Choose game options</h2>
+            <h3>How many tiles do you want to look at?</h3>
+            <select class="select" id="card-number" name="card-number">
+              <option value="4">4</option>
+              <option value="6">6</option>
+              <option value="8">8</option>
+            </select>
+            <h3>How much time for remembering these tiles do you need?</h3>
+            <select class="select" id="time-needed" name="time-needed">
+              <option value="00:10">00:10</option>
+              <option value="00:20">00:20</option>
+              <option value="00:30">00:30</option>
+            </select>
+            <h3>What kind of comparison tile do you want?</h3>
+            <select class="select" id="comp-tile" name="comp-tile">
+              <option value="text">text</option>
+              <option value="same-card">tile</option>
+              <option value="comp-all">suprise</option>
+            </select>
+            <button class="buttons" id="modal-button">
+              <span class="close">Start Game</span>
+            </button>
+          </div>
+        </div>
+      </section>
 
       <!-- Timer 1 - inspired by https://codepen.io/awkay/pen/ExzGea -->
-      <button class="flip timer"><span id="timer">00:00</span></button>
+      <section>
+        <button class="flip timer"><span id="timer">00:00</span></button>
+      </section>
 
       <!-- Animal images collection for for displaying as selection -->
-      <div id="animal-images">
+      <section>
+        <div id="animal-images">
           <div class="card cat">
             <div class="front">
               <img src="assets/images/cat.webp" alt="white cat">
@@ -138,10 +143,13 @@
               <img src="assets/images/cardback.png" alt="Card back with question mark">
             </div>  
           </div>
-      </div>
+        </div>
+      </section>
         
+
       <!-- Images and Animalnames for comparison -->
-      <!--
+      <section>
+        <!--
         <div id="comparison-animals">
             <div class="cat">
                 <img src="assets/images/cat.webp" alt="white cat">
@@ -177,26 +185,33 @@
             </div>
         </div>
         -->
+      </section>
 
       <!-- Timer Two - inspired by https://codepen.io/rebellionwebdesign/pen/zYMJLyj -->
-      <div class="timer">
-        <span id="minutes"></span><span id="seconds"></span>
-      </div>
-
+      <section>
+        <div class="timer">
+          <span id="minutes"></span><span id="seconds"></span>
+        </div>
+      </section>
+      
       <!-- Scores - inspired by Love Math project-->  
-      <div class="score-area">
-        <div>
-          <p class="scores">Correct Answers: <span id="correct">0</span></p>
+      <section>
+        <div class="score-area">
+          <div>
+            <p class="scores">Correct Answers: <span id="correct">0</span></p>
+          </div>
+          <div>
+            <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
+          </div>
         </div>
-        <div>
-          <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
-        </div>
-      </div>
-
+      </section>
+      
       <!-- Return to rules -->
-      <div class="buttons">
-        <button><a href="index.html">Rules</a></button>
-      </div>
+      <section>
+        <div class="buttons">
+          <button><a href="index.html">Rules</a></button>
+        </div>
+      </section>
     </main>
 
     <!-- Script -->
