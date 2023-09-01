@@ -75,6 +75,31 @@ Here is the previously outlined flow chart:
 
 ![Drawn flow chart of the project](assets/readme-images/flow-chart.png)
 
+### Method
+
+#### POC (prove fo concept)
+
+- Display cards all front
+- Flip all cards back
+- Display one question
+- Process user click
+- Flip the selected card front
+- Check if the card is correct
+- Display feedback, selection is right or wrong
+
+#### MVP (minimum viable product)
+
+- Proper start screen
+- Continue the rounds until all cards are found
+- End of the game conditions; check all cards
+- Proper end screen
+- Styling
+
+#### V2 (version 2)
+- Timer options
+- Change number of cards
+- Add new comparison types
+
 ## Features
 
 - **Header**
