@@ -189,8 +189,8 @@ footer>i {
     grid-template-columns: auto auto;
   }
 
-#animal-images > img {
-    max-width: 45vw;
+#animal-images img {
+    max-width: 40vw;
     height: auto;
 }
 
@@ -203,6 +203,7 @@ footer>i {
     transition: transform 1s;
     backface-visibility: hidden;
     margin: 5px auto;
+    max-width: 100%;
   }
   
 .back {
