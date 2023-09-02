@@ -184,26 +184,33 @@ footer>i {
 
 /* Card styling / flipping inspired by https://stackoverflow.com/questions/66449563/flipping-all-cards-but-want-to-flip-one-by-one */
 #animal-images {
-    justify-content: space-evenly;
+    width: 100vw; 
+    margin-left: auto;
+    margin-right: auto;
   }
-//Fehlt: kein Platz für back hidden lassen 
-//erstmal button fürs flip erstellen
+
+#animal-images > img {
+    max-width: 45vw;
+    height: auto;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    
+  }
+
+  .back {
+    display: none;
   }
 
 .grid-item {
-    padding: 5px;  
+    padding: 0px;  
   }
 
 .card {
     transform-style: preserve-3d;
     transition: transform 1s;
     backface-visibility: hidden;
-    width: 45vh;
-    height: 45vh;
   }
   
 .back {
