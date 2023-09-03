@@ -15,18 +15,19 @@ function shuffleCards() {
   }
   
 //flipping cards - inspired by https://jsbin.com/deqejekomu/edit?html,css,js,output
+//and https://www.educative.io/answers/how-to-ensure-an-event-listener-is-only-fired-once-in-javascript
 function flipCardsListener() {
     document.getElementById('flip').addEventListener('click', function () {
         const cards = document.querySelectorAll(".card-inner");
         cards.forEach(card => card.classList.toggle('flipped'));
         document.getElementById('comp-image').style.display = 'block';
-    }, false);
+    }, {once : true});
   }
   
   
 function run() {
     shuffleCards();
-    flipCardsListener()
+    flipCardsListener();
   }
   run();
 
