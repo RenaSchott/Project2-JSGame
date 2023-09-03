@@ -184,24 +184,24 @@ footer>i {
 
 /* Card styling / flipping inspired by https://stackoverflow.com/questions/66449563/flipping-all-cards-but-want-to-flip-one-by-one */
 #animal-images {
-    width: 100vw;
     display: grid;
     grid-template-columns: auto auto;
+    
   }
 
 #animal-images img {
     max-width: 40vw;
     height: auto;
-}
+    backface-visibility: hidden;
+  }
 
-  .back {
+.back {
     display: none;
   }
 
 .card {
     transform-style: preserve-3d;
     transition: transform 1s;
-    backface-visibility: hidden;
     margin: 5px auto;
     max-width: 100%;
   }
