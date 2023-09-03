@@ -55,5 +55,5 @@ function randomImage() {
 }
 randomImage();
 
-
+//Users guess
   
