@@ -219,6 +219,8 @@ The content of this project was inspired by the Love Math project, the content o
 <https://stackoverflow.com/questions/37604456/how-to-make-a-div-flip-on-button-press>
 <https://codepen.io/DevelopedByKieran/pen/JjwKbpO>
 <https://www.javatpoint.com/javascript-select-option>
+<https://jsbin.com/deqejekomu/edit?html,css,js,output>
+<https://jsbin.com/gazusipeta/1/edit?html,css,js,output>
 
 ### Media
 
