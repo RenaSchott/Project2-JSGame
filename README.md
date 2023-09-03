@@ -221,6 +221,7 @@ The content of this project was inspired by the Love Math project, the content o
 <https://www.javatpoint.com/javascript-select-option>
 <https://jsbin.com/deqejekomu/edit?html,css,js,output>
 <https://jsbin.com/gazusipeta/1/edit?html,css,js,output>
+<https://www.tutorialspoint.com/how-to-show-images-with-a-click-in-javascript-using-html>
 
 ### Media
 
