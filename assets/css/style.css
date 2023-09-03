@@ -227,6 +227,13 @@ and https://jsbin.com/deqejekomu/edit?html,css,js,output*/
     transform: rotateY(180deg);
   }
 
+/* Comparison image - inspired by https://www.tutorialspoint.com/how-to-show-images-with-a-click-in-javascript-using-html */
+#comp-image {
+    width: 90vw;
+    margin: 10px;
+    display: none;
+}
+
 
 /* Error pages */
 #error-image {
