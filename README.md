@@ -216,7 +216,7 @@ The content of this project was inspired by the Love Math project, the content o
 <https://developer.mozilla.org>
 <https://www.w3schools.com/>
 <https://codepen.io/awkay/pen/ExzGea>
-<https://stackoverflow.com/questions/66449563/flipping-all-cards-but-want-to-flip-one-by-one>
+<https://stackoverflow.com/questions/37604456/how-to-make-a-div-flip-on-button-press>
 <https://codepen.io/DevelopedByKieran/pen/JjwKbpO>
 <https://www.javatpoint.com/javascript-select-option>
 

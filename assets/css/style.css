@@ -182,7 +182,7 @@ footer>i {
     font-weight: bold;
 }
 
-/* Card styling / flipping inspired by https://stackoverflow.com/questions/66449563/flipping-all-cards-but-want-to-flip-one-by-one */
+/* Card styling / flipping inspired by https://stackoverflow.com/questions/37604456/how-to-make-a-div-flip-on-button-press */
 #animal-images {
     display: grid;
     grid-template-columns: auto auto;
