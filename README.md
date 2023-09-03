@@ -222,6 +222,7 @@ The content of this project was inspired by the Love Math project, the content o
 <https://jsbin.com/deqejekomu/edit?html,css,js,output>
 <https://jsbin.com/gazusipeta/1/edit?html,css,js,output>
 <https://www.tutorialspoint.com/how-to-show-images-with-a-click-in-javascript-using-html>
+<https://www.educative.io/answers/how-to-ensure-an-event-listener-is-only-fired-once-in-javascript>
 
 ### Media
 
