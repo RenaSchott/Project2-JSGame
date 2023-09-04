@@ -19,11 +19,11 @@ function shuffleCards() {
 function flipCardsListener() {
     document.getElementById('flip').addEventListener('click', function () {
         const cards = document.querySelectorAll(".card-inner");
-        cards.forEach(card => card.classList.toggle('flipped'));
+        // cards.forEach(card => card.classList.toggle('flipped'));
+        cards.forEach(card => card.classList.toggle('flip-card-inner'));
         document.getElementById('comp-image').style.display = 'block';
     }, {once : true});
   }
-  
   
 function run() {
     shuffleCards();
@@ -40,7 +40,7 @@ const srcArray = ['assets/images/cat.webp', 'assets/images/dog.webp', 'assets/im
  'assets/images/horse. webp', 'assets/images/lion.webp', 'assets/images/raven.webp', 'assets/images/wolf.webp'];
 
 showImage.addEventListener("click", () => { 
-    myImage.style.display = "block"; 
+    imgEl.style.display = "block"; 
  });
 
 let index;
@@ -56,5 +56,12 @@ function randomImage() {
 }
 randomImage();
 
-//Users guess
+//Users guess - inspired by https://codepen.io/mondal10/pen/WNNEvjV
+var cards = document.querySelectorAll('.card-inner');
+
+[...cards].forEach((card)=>{
+  card.addEventListener( 'click', function() {
+    card.classList.toggle('flip-card-inner');
+  });
+});
   
