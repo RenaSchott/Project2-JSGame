@@ -36,7 +36,8 @@ function run() {
 //and https://www.tutorialspoint.com/how-to-show-images-with-a-click-in-javascript-using-html
 const showImage = document.getElementById("flip");
 const imgEl = document.getElementById('comp-image');
-const srcArray = ['assets/images/cat.webp', 'assets/images/dog.webp', 'assets/images/elephant.webp'];
+const srcArray = ['assets/images/cat.webp', 'assets/images/dog.webp', 'assets/images/elephant.webp', 'assets/images/gorilla.webp',
+ 'assets/images/horse. webp', 'assets/images/lion.webp', 'assets/images/raven.webp', 'assets/images/wolf.webp'];
 
 showImage.addEventListener("click", () => { 
     myImage.style.display = "block"; 
