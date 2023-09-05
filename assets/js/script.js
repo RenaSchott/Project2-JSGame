@@ -46,6 +46,35 @@ showImage.addEventListener("click", () => {
 });
 
 let index;
+
+/**
+ * Timer Two starts counting
+ */
+//Inspired by https://codepen.io/DevelopedByKieran/pen/JjwKbpO
+function timerTwoCounting() {
+
+}
+const minutesElement = document.getElementById("minutes");
+const secondsElement = document.getElementById("seconds");
+
+let timer2;
+let minutes = 0;
+let seconds = 0;
+
+function runTimer() {
+  timer2 = setInterval(() => {
+    minutesElement.innerHTML = "0" + minutes + ":";
+    secondsElement.innerHTML = seconds;
+    seconds++;
+    if (seconds === 60) {
+      minutes += 1;
+      seconds = 0;
+    }
+  }, 1000);
+}
+
+runTimer();
+
 /**
 * For random comparison image
 */
