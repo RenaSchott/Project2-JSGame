@@ -70,7 +70,11 @@ var cards = document.querySelectorAll('.card-inner');
   let clickedImage = card.parentElement.dataset.image;
   
   if (imgEl.src.includes(clickedImage)) {
-    /**
+    
+  });
+});
+  
+/**
     * Adding point for correct answer by getting current score from the DOM and increments it by 1 
     */
     //Inspired by Love Math project
@@ -85,11 +89,7 @@ var cards = document.querySelectorAll('.card-inner');
     function incorrectAnswer() {
       let oldScore = parseInt(document.getElementById("incorrect").innerText);
       document.getElementById("incorrect").innerText = ++oldScore;
+      console.log("Matched!"); 
+      } else {
+      console.log("Not Matched!");
     }
-    console.log("Matched!"); 
-  } else {
-    console.log("Not Matched!");
-  }
-  });
-});
-  
