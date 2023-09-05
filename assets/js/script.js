@@ -1,9 +1,3 @@
-//Randomly displaying cards
-/**
- * 
- */
-
-
 //random cards - inspired by https://jsbin.com/gazusipeta/1/edit?html,css,js,output
 function shuffleCards() {
     const grid = document.getElementById("grid");
@@ -65,3 +59,15 @@ var cards = document.querySelectorAll('.card-inner');
   });
 });
   
+//cards flipp over again - inspired by https://stackoverflow.com/questions/52824248/how-to-stop-other-code-from-running-until-settimeout-finishes-running
+let disable = false;
+
+setTimeout (function timeOut () {
+  if (flip-card-inner === is flipped) {
+    disable = true;
+    lockBoard = true;
+    if (disable === true) {
+      lockBoard = false;
+    }
+  }, 2000);
+}
