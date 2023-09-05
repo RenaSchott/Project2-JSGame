@@ -334,10 +334,10 @@ and https://jsbin.com/deqejekomu/edit?html,css,js,output*/
         margin: 20px;
     }
 
-    #game-explanation,
-    #game-rules {
-        max-width: 45%;
-    }
+    /* Inspired by https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Controlling_ratios_of_flex_items_along_the_main_axis */
+    #main > * {
+        flex: auto;
+      }
 
     /* Game page */
     /* Timer */
