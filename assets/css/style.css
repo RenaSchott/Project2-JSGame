@@ -327,7 +327,7 @@ and https://jsbin.com/deqejekomu/edit?html,css,js,output*/
 }
 
 
-/* Large devices (laptops and desktops, 992px and up) */
+/* Large devices (laptops, 992px and up) */
 @media screen and (min-width: 992px) {
     /* Index page */
     #main {
@@ -359,4 +359,9 @@ and https://jsbin.com/deqejekomu/edit?html,css,js,output*/
         margin-top: 38px;
         font-size: 300%;
     }
+}
+
+/* Large devices (desktop, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
 }
