@@ -173,8 +173,6 @@ NOCH ÜBERARBEITEN
 - The site was tested on different browsers: Chrome and Firefox.
 - The DevTools confirmed that the page looks good and is functional on different screen sizes.
 - I confirmed that the page is readable.
-- The menu is easy to understand.
-- I confirmed the function of the form page.
 
 ### Validator testing
 
@@ -182,6 +180,9 @@ NOCH ÜBERARBEITEN
   -
   
 - **CSS**
+  -
+
+- **JavaScript**
   -
 
 - **Accessibility**
