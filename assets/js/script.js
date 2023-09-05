@@ -48,7 +48,7 @@ showImage.addEventListener("click", () => {
 let index;
 
 /**
- * Timer Two starts counting
+ * Timer starts counting
  */
 //Inspired by https://codepen.io/DevelopedByKieran/pen/JjwKbpO
 function timerTwoCounting() {
@@ -123,5 +123,3 @@ function correctAnswer() {
 function incorrectAnswer() {
   let oldScore = parseInt(document.getElementById("incorrect").innerText);
   document.getElementById("incorrect").innerText = ++oldScore;}
-
-
