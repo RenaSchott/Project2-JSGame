@@ -75,6 +75,3 @@ card.addEventListener( 'click', function() {
 */
 // Get class of clicked image inspired by https://softauthor.com/get-id-of-clicked-element-in-javascript/
 // Target all clicks on any element
-
-
-
