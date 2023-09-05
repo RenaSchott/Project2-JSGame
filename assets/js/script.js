@@ -64,10 +64,40 @@ randomImage();
 var cards = document.querySelectorAll('.card-inner');
 
 [...cards].forEach((card)=>{
-card.addEventListener( 'click', function() {
+  card.addEventListener('click', function() {
   card.classList.toggle('flip-card-inner');
-});
-});
+  // Get the image associated with the clicked card
+  let clickedImage = card.parentElement.dataset.image;
+  // Check if it matches the comparison image
+  if (imgEl.src.includes(clickedImage)) {
+  // Update the score
+  // You can increment your score variable here
+  // and update the display accordingly if you have one.
+  console.log("Matched!"); // This is just for debugging. You can remove this.
+  } else {
+  console.log("Not Matched!"); // This is just for debugging. You can remove this.
+  }
+  });
+  });
+  
+  [...cards].forEach((card)=>{
+    card.addEventListener('click', function() {
+      card.classList.toggle('flip-card-inner');
+      
+      // Get the image associated with the clicked card
+      let clickedImage = card.parentElement.dataset.image;
+      // Check if it matches the comparison image
+      if (imgEl.src.includes(clickedImage)) {
+        // Update the score
+        // You can increment your score variable here
+        // and update the display accordingly if you have one.
+        console.log("Matched!"); // This is just for debugging. You can remove this.
+      } else {
+        console.log("Not Matched!"); // This is just for debugging. You can remove this.
+      }
+    });
+  });
+
 
 //card comparison inspired by Love Math
 /**
