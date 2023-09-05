@@ -3,35 +3,35 @@
  * For shuffle the main cards
  */
 function shuffleCards() {
-    const grid = document.getElementById("grid");
-    let cards = [...document.getElementsByClassName("card")];
-    cards = cards.sort(() => Math.random() - 0.5);
-  
-    grid.innerHTML = ""
-    cards.forEach(card => grid.appendChild(card));
-  }
-  
+  const grid = document.getElementById("grid");
+  let cards = [...document.getElementsByClassName("card")];
+  cards = cards.sort(() => Math.random() - 0.5);
+
+  grid.innerHTML = ""
+  cards.forEach(card => grid.appendChild(card));
+}
+
 //flipping cards - inspired by https://jsbin.com/deqejekomu/edit?html,css,js,output
 //and https://www.educative.io/answers/how-to-ensure-an-event-listener-is-only-fired-once-in-javascript
 /**
- * For flipping cards
- */
+* For flipping cards
+*/
 function flipCardsListener() {
-    document.getElementById('flip').addEventListener('click', function () {
-        const cards = document.querySelectorAll(".card-inner");
-        // cards.forEach(card => card.classList.toggle('flipped'));
-        cards.forEach(card => card.classList.toggle('flip-card-inner'));
-        document.getElementById('comp-image').style.display = 'block';
-    }, {once : true});
-  }
+  document.getElementById('flip').addEventListener('click', function () {
+      const cards = document.querySelectorAll(".card-inner");
+      // cards.forEach(card => card.classList.toggle('flipped'));
+      cards.forEach(card => card.classList.toggle('flip-card-inner'));
+      document.getElementById('comp-image').style.display = 'block';
+  }, {once : true});
+}
 /**
- * For running
- */
+* For running
+*/
 function run() {
-    shuffleCards();
-    flipCardsListener();
-  }
-  run();
+  shuffleCards();
+  flipCardsListener();
+}
+run();
 
 
 //displaying random image - inspired by https://openjavascript.info/2022/12/11/random-image-with-javascript/
@@ -39,24 +39,24 @@ function run() {
 const showImage = document.getElementById("flip");
 const imgEl = document.getElementById('comp-image');
 const srcArray = ['assets/images/cat.webp', 'assets/images/dog.webp', 'assets/images/elephant.webp', 'assets/images/gorilla.webp',
- 'assets/images/horse. webp', 'assets/images/lion.webp', 'assets/images/raven.webp', 'assets/images/wolf.webp'];
+'assets/images/horse. webp', 'assets/images/lion.webp', 'assets/images/raven.webp', 'assets/images/wolf.webp'];
 
 showImage.addEventListener("click", () => { 
-    imgEl.style.display = "block"; 
- });
+  imgEl.style.display = "block"; 
+});
 
 let index;
 /**
- * For random comparison image
- */
+* For random comparison image
+*/
 function randomImage() {
-    const randomIndex = Math.floor(Math.random()*srcArray.length);
-    if (randomIndex !== index) {
-        imgEl.src = srcArray[randomIndex];
-        index = randomIndex;
-    } else {
-        randomImage();
-    }
+  const randomIndex = Math.floor(Math.random()*srcArray.length);
+  if (randomIndex !== index) {
+      imgEl.src = srcArray[randomIndex];
+      index = randomIndex;
+  } else {
+      randomImage();
+  }
 }
 randomImage();
 
@@ -64,15 +64,15 @@ randomImage();
 var cards = document.querySelectorAll('.card-inner');
 
 [...cards].forEach((card)=>{
-  card.addEventListener( 'click', function() {
-    card.classList.toggle('flip-card-inner');
-  });
+card.addEventListener( 'click', function() {
+  card.classList.toggle('flip-card-inner');
+});
 });
 
 //card comparison inspired by Love Math
 /**
- * Controll answer
- */
+* Controll answer
+*/
 // Get class of clicked image inspired by https://softauthor.com/get-id-of-clicked-element-in-javascript/
 // Target all clicks on any element
 
