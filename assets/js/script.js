@@ -71,34 +71,25 @@ var cards = document.querySelectorAll('.card-inner');
   
   if (imgEl.src.includes(clickedImage)) {
     /**
-  * Adding point for correct answer by getting current score from the DOM and increments it by 1 
-  */
-  //Inspired by Love Math project
-  function correctAnswer() {
-    let oldScore = parseInt(document.getElementById("correct").innerText);
-    document.getElementById("correct").innerText = ++oldScore;
-  }
-  /**
-  * Adding point for incorrect answer by getting incorrect score from the DOM and increment it by 1
-  */
-  //inspired by Love Math project
-  function incorrectAnswer() {
-    let oldScore = parseInt(document.getElementById("incorrect").innerText);
-    document.getElementById("incorrect").innerText = ++oldScore;
-  }
-    console.log("Matched!"); // This is just for debugging. You can remove this.
+    * Adding point for correct answer by getting current score from the DOM and increments it by 1 
+    */
+    //Inspired by Love Math project
+    function correctAnswer() {
+      let oldScore = parseInt(document.getElementById("correct").innerText);
+      document.getElementById("correct").innerText = ++oldScore;
+    }
+    /**
+    * Adding point for incorrect answer by getting incorrect score from the DOM and increment it by 1
+    */
+    //inspired by Love Math project
+    function incorrectAnswer() {
+      let oldScore = parseInt(document.getElementById("incorrect").innerText);
+      document.getElementById("incorrect").innerText = ++oldScore;
+    }
+    console.log("Matched!"); 
   } else {
-    console.log("Not Matched!"); // This is just for debugging. You can remove this.
+    console.log("Not Matched!");
   }
   });
 });
   
- 
-
-
-//card comparison inspired by Love Math
-/**
-* Controll answer
-*/
-// Get class of clicked image inspired by https://softauthor.com/get-id-of-clicked-element-in-javascript/
-// Target all clicks on any element
