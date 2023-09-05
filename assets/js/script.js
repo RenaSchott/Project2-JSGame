@@ -68,35 +68,32 @@ var cards = document.querySelectorAll('.card-inner');
   card.classList.toggle('flip-card-inner');
   // Get the image associated with the clicked card
   let clickedImage = card.parentElement.dataset.image;
-  // Check if it matches the comparison image
+  
   if (imgEl.src.includes(clickedImage)) {
-  // Update the score
-  // You can increment your score variable here
-  // and update the display accordingly if you have one.
-  console.log("Matched!"); // This is just for debugging. You can remove this.
+    /**
+  * Adding point for correct answer by getting current score from the DOM and increments it by 1 
+  */
+  //Inspired by Love Math project
+  function correctAnswer() {
+    let oldScore = parseInt(document.getElementById("correct").innerText);
+    document.getElementById("correct").innerText = ++oldScore;
+  }
+  /**
+  * Adding point for incorrect answer by getting incorrect score from the DOM and increment it by 1
+  */
+  //inspired by Love Math project
+  function incorrectAnswer() {
+    let oldScore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerText = ++oldScore;
+  }
+    console.log("Matched!"); // This is just for debugging. You can remove this.
   } else {
-  console.log("Not Matched!"); // This is just for debugging. You can remove this.
+    console.log("Not Matched!"); // This is just for debugging. You can remove this.
   }
   });
-  });
+});
   
-  [...cards].forEach((card)=>{
-    card.addEventListener('click', function() {
-      card.classList.toggle('flip-card-inner');
-      
-      // Get the image associated with the clicked card
-      let clickedImage = card.parentElement.dataset.image;
-      // Check if it matches the comparison image
-      if (imgEl.src.includes(clickedImage)) {
-        // Update the score
-        // You can increment your score variable here
-        // and update the display accordingly if you have one.
-        console.log("Matched!"); // This is just for debugging. You can remove this.
-      } else {
-        console.log("Not Matched!"); // This is just for debugging. You can remove this.
-      }
-    });
-  });
+ 
 
 
 //card comparison inspired by Love Math
