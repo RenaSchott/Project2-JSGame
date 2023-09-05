@@ -302,11 +302,9 @@ and https://jsbin.com/deqejekomu/edit?html,css,js,output*/
     }
 
     /* Game page */
-    /* Card styling / flipping inspired by https://stackoverflow.com/questions/37604456/how-to-make-a-div-flip-on-button-press 
-    and https://jsbin.com/deqejekomu/edit?html,css,js,output*/
+    /* Card styling */
     #grid {
         grid-template-columns: auto auto auto;
-        margin-bottom: 5px;
     }
 
     .card {
@@ -318,7 +316,6 @@ and https://jsbin.com/deqejekomu/edit?html,css,js,output*/
         height: auto;
         
     }
-    
 
     /* Timer */
     .timer {
@@ -352,5 +349,37 @@ and https://jsbin.com/deqejekomu/edit?html,css,js,output*/
 
 /* Large devices (desktop, 1200px and up) */
 @media screen and (min-width: 1200px) {
+ /* Game page */
+    /* Card styling */
+    .game {
+        display: flex;
+    }
 
+    #grid {
+        width: 48vw;
+        margin: auto;
+    }
+
+    .card {
+        height: 15vw;
+    }
+
+    .card img {
+        max-width: 15vw;
+        height: auto;
+    }
+   
+    /* Comparison image */
+   #comp-image {
+        display: block;
+        width: 48vw;
+        margin-left: auto;
+        margin-right: auto;
+   }
+
+    /* Timer */
+    .timer {
+        margin-top: 38px;
+        font-size: 300%;
+    }
 }
