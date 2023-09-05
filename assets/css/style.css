@@ -250,17 +250,6 @@ and https://jsbin.com/deqejekomu/edit?html,css,js,output*/
     }
 
     /* Game page */
-    /* Modal */
-    .select {
-        font-size: 150%;
-        margin-left: 20rem;
-    }
-    
-    #modal-button {
-        margin-top:30px;
-        font-size: 120%;
-    }
-
     /* Timer */
     .timer {
         margin-top: 30px;
@@ -313,11 +302,23 @@ and https://jsbin.com/deqejekomu/edit?html,css,js,output*/
     }
 
     /* Game page */
-    /* Modal */    
-    #modal-button {
-        margin-top:35px;
-        font-size: 180%;
+    /* Card styling / flipping inspired by https://stackoverflow.com/questions/37604456/how-to-make-a-div-flip-on-button-press 
+    and https://jsbin.com/deqejekomu/edit?html,css,js,output*/
+    #grid {
+        grid-template-columns: auto auto auto;
+        margin-bottom: 5px;
     }
+
+    .card {
+        height: 30vw;
+    }
+
+    .card img {
+        max-width: 30vw;
+        height: auto;
+        
+    }
+    
 
     /* Timer */
     .timer {
@@ -342,18 +343,6 @@ and https://jsbin.com/deqejekomu/edit?html,css,js,output*/
     }
 
     /* Game page */
-    /* Modal */
-    .select {
-        font-size: 200%;
-        margin-left: 50rem;
-    }
-    
-    #modal-button {
-        margin-top:35px;
-        font-size: 200%;
-        margin-left: 45%
-    }
-
     /* Timer */
     .timer {
         margin-top: 38px;
