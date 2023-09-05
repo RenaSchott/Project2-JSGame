@@ -66,30 +66,30 @@ var cards = document.querySelectorAll('.card-inner');
 [...cards].forEach((card)=>{
   card.addEventListener('click', function() {
   card.classList.toggle('flip-card-inner');
-  // Get the image associated with the clicked card
   let clickedImage = card.parentElement.dataset.image;
-  
   if (imgEl.src.includes(clickedImage)) {
-    
-  });
+    correctAnswer()
+    console.log("Matched!");
+  } else {
+    incorrectAnswer()
+    console.log("Not Matched!");
+  };
 });
-  
+ 
+
 /**
-    * Adding point for correct answer by getting current score from the DOM and increments it by 1 
-    */
-    //Inspired by Love Math project
-    function correctAnswer() {
-      let oldScore = parseInt(document.getElementById("correct").innerText);
-      document.getElementById("correct").innerText = ++oldScore;
-    }
-    /**
-    * Adding point for incorrect answer by getting incorrect score from the DOM and increment it by 1
-    */
-    //inspired by Love Math project
-    function incorrectAnswer() {
-      let oldScore = parseInt(document.getElementById("incorrect").innerText);
-      document.getElementById("incorrect").innerText = ++oldScore;
-      console.log("Matched!"); 
-      } else {
-      console.log("Not Matched!");
-    }
+* Adding point for correct answer by getting current score from the DOM and increments it by 1 
+*/
+//Inspired by Love Math project
+function correctAnswer() {
+  let oldScore = parseInt(document.getElementById("correct").innerText);
+  document.getElementById("correct").innerText = ++oldScore;
+}
+
+/**
+* Adding point for incorrect answer by getting incorrect score from the DOM and increment it by 1
+*/
+//inspired by Love Math project
+function incorrectAnswer() {
+  let oldScore = parseInt(document.getElementById("incorrect").innerText);
+  document.getElementById("incorrect").innerText = ++oldScore;
