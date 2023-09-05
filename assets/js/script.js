@@ -68,18 +68,13 @@ var cards = document.querySelectorAll('.card-inner');
     card.classList.toggle('flip-card-inner');
   });
 });
-  
-//cards flipp over again - inspired by https://stackoverflow.com/questions/52824248/how-to-stop-other-code-from-running-until-settimeout-finishes-running
-let disable = false;
+
+//card comparison inspired by Love Math
 /**
- * Timeout Funktion
+ * Controll answer
  */
-setTimeout (function timeOut () {
-  if (flip-card-inner === is flipped) {
-    disable = true;
-    lockBoard = true;
-    if (disable === true) {
-      lockBoard = false;
-    }
-  }, 2000);
-}
+// Get class of clicked image inspired by https://softauthor.com/get-id-of-clicked-element-in-javascript/
+// Target all clicks on any element
+
+
+
