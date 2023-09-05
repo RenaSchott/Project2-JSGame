@@ -1,4 +1,7 @@
 //random cards - inspired by https://jsbin.com/gazusipeta/1/edit?html,css,js,output
+/**
+ * For shuffle the main cards
+ */
 function shuffleCards() {
     const grid = document.getElementById("grid");
     let cards = [...document.getElementsByClassName("card")];
@@ -10,6 +13,9 @@ function shuffleCards() {
   
 //flipping cards - inspired by https://jsbin.com/deqejekomu/edit?html,css,js,output
 //and https://www.educative.io/answers/how-to-ensure-an-event-listener-is-only-fired-once-in-javascript
+/**
+ * For flipping cards
+ */
 function flipCardsListener() {
     document.getElementById('flip').addEventListener('click', function () {
         const cards = document.querySelectorAll(".card-inner");
@@ -18,7 +24,9 @@ function flipCardsListener() {
         document.getElementById('comp-image').style.display = 'block';
     }, {once : true});
   }
-  
+/**
+ * For running
+ */
 function run() {
     shuffleCards();
     flipCardsListener();
@@ -38,7 +46,9 @@ showImage.addEventListener("click", () => {
  });
 
 let index;
-
+/**
+ * For random comparison image
+ */
 function randomImage() {
     const randomIndex = Math.floor(Math.random()*srcArray.length);
     if (randomIndex !== index) {
@@ -61,7 +71,9 @@ var cards = document.querySelectorAll('.card-inner');
   
 //cards flipp over again - inspired by https://stackoverflow.com/questions/52824248/how-to-stop-other-code-from-running-until-settimeout-finishes-running
 let disable = false;
-
+/**
+ * Timeout Funktion
+ */
 setTimeout (function timeOut () {
   if (flip-card-inner === is flipped) {
     disable = true;
