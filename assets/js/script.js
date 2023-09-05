@@ -75,6 +75,7 @@ var cards = document.querySelectorAll('.card-inner');
     console.log("Not Matched!");
   };
 });
+});
  
 
 /**
@@ -92,4 +93,6 @@ function correctAnswer() {
 //inspired by Love Math project
 function incorrectAnswer() {
   let oldScore = parseInt(document.getElementById("incorrect").innerText);
-  document.getElementById("incorrect").innerText = ++oldScore;
+  document.getElementById("incorrect").innerText = ++oldScore;}
+
+
