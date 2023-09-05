@@ -70,11 +70,11 @@ var cards = document.querySelectorAll('.card-inner');
 });
   
 //cards flipp over again - inspired by https://stackoverflow.com/questions/52824248/how-to-stop-other-code-from-running-until-settimeout-finishes-running
-let disable = false;
 /**
  * Timeout Funktion
  */
-setTimeout (function timeOut () {
+setTimeout (function timeOut() {
+  let disable = false;
   if (flip-card-inner === is flipped) {
     disable = true;
     lockBoard = true;
@@ -82,4 +82,13 @@ setTimeout (function timeOut () {
       lockBoard = false;
     }
   }, 2000);
+})
+
+//Compare the cards (comparison tile with user choice)
+/**
+ * Matching logic
+ */
+function comparisonTile() {
+
 }
+
