@@ -225,6 +225,7 @@ The content of this project was inspired by the Love Math project, the content o
 <https://www.educative.io/answers/how-to-ensure-an-event-listener-is-only-fired-once-in-javascript>
 <https://codepen.io/mondal10/pen/WNNEvjV>
 <https://stackoverflow.com/questions/52824248/how-to-stop-other-code-from-running-until-settimeout-finishes-running>
+<https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Controlling_ratios_of_flex_items_along_the_main_axis>
 
 ### Media
 
