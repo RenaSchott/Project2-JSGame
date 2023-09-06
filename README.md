@@ -99,14 +99,18 @@ Here is the previously outlined flow chart:
 
 - **Header**
 
-  - The Header includes the name of the game in the middle.
-  - On the left and right of the Header is the logo of the game displayed.
+  - The header includes the name of the game in the middle.
+  - On the left and right of the header is the logo of the game displayed.
+  - The background color is a dark red.
 
 ![screenshot of the header](assets/readme-images/header.png)
 
 - **Footer**
 
-  - The footers
+  - The footer shows all necessary social media icons.
+  - The icons for facebook, X and Instagram are clickable and open in a new tab.
+  - The footer has the same background color as the header.
+  - The footer section tries to give options for the users to stay informned about the game.
 
 ![screenshot of the footer](assets/readme-images/footer.png)
 
