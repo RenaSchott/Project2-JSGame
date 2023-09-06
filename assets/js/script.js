@@ -13,7 +13,6 @@ let seconds = 0;
 const randomIndex = Math.floor(Math.random()*srcArray.length);
 var cards = document.querySelectorAll('.card-inner');
 let index;
-let round = 1;
 
 
 // FUNCTIONS ///
@@ -48,6 +47,7 @@ function flipCards() {
 function run() {
   shuffleCards();
   flipCards();
+  alert("Welcome! Have fun playing pairs!");
 }
 
 
