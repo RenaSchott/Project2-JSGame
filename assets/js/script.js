@@ -35,9 +35,6 @@ function shuffleCards() {
 function flipCards() {
   document.getElementById('flip').addEventListener('click', function () {
       allCards.forEach(card => card.classList.toggle('flip-card-inner'));
-      if(flip-card-inner === true) {
-        document.getElementsByClassName('card-front').style.display = 'hidden';
-      }
       document.getElementById('comp-image').style.display = 'block';
   }, {once : true});
 }
@@ -137,17 +134,23 @@ function incorrectAnswer() {
  * Starting new round
  */
 function newRound() {
-  run()
-  runTimer();
-  randomImage();
-  comparisonImage ();
-  //keep score
+    //counting rounds 
+    //finding the right image
+    run()
+    runTimer();
+    randomImage();
+    comparisonImage ();
+    //keep score
+    //maybe 5 rounds
+
 }
 
 /**
  * Ending game
  */
 function endGame() {
+  alert("You found it! Your score is: correct answers: correctAnswer() and incorrect answers: incorrectAnswer()");
+  
   //new Round
   //display score
 }
@@ -171,4 +174,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
 run();
 runTimer();
 randomImage();
-comparisonImage ()
+comparisonImage ();
+
