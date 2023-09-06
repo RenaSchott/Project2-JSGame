@@ -1,3 +1,6 @@
+// Global variables (still needed)
+
+
 //random cards - inspired by https://jsbin.com/gazusipeta/1/edit?html,css,js,output
 /**
  * For shuffle the main cards
@@ -16,7 +19,7 @@ function shuffleCards() {
 /**
 * For flipping cards
 */
-function flipCardsListener() {
+function flipCards() {
   document.getElementById('flip').addEventListener('click', function () {
       const cards = document.querySelectorAll(".card-inner");
       // cards.forEach(card => card.classList.toggle('flipped'));
@@ -32,7 +35,7 @@ function flipCardsListener() {
 */
 function run() {
   shuffleCards();
-  flipCardsListener();
+  flipCards();
 }
 run();
 
