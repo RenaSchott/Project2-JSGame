@@ -13,7 +13,7 @@ let seconds = 0;
 const randomIndex = Math.floor(Math.random()*srcArray.length);
 var cards = document.querySelectorAll('.card-inner');
 let index;
-var round = 1;
+let round = 1;
 
 
 // FUNCTIONS ///
@@ -92,19 +92,20 @@ function randomImage() {
 
 
 //Users guess - inspired by https://codepen.io/mondal10/pen/WNNEvjV
+//and https://www.freecodecamp.org/news/refresh-the-page-in-javascript-js-reload-window-tutorial/
 [...cards].forEach((card)=>{
   card.addEventListener('click', function() {
     card.classList.toggle('flip-card-inner');
     let clickedImage = card.parentElement.dataset.image;
     if (imgEl.src.includes(clickedImage)) {
       correctAnswer();
-      console.log("Matched!");
-      alert("You found it!");
-      endGame();
+      alert("You found it! New game starts shortly");
+      setTimeout(() => {
+        document.location.reload();
+      }, 3000);      
     } else {
       incorrectAnswer();
-      console.log("Not Matched!");
-      alert("Awww.... Try again")
+      alert("Awww.... Try again");
     };
   });
 });
@@ -130,32 +131,6 @@ function incorrectAnswer() {
 }
 
 
-/**
- * Starting new round
- */
-function newRound() {
-    run();
-    runTimer();
-    document.getElementById('comp-image').style.display = 'hidden';
-    randomImage();
-    comparisonImage();
-    round++;
-}
-
-/**
- * Ending game
- */
-function endGame() {
-  for (let i = 0; i < round; i++) {
-    if (round < 5){
-      newRound();
-    } else {
-      alert("5 Round are up" + correctAnswer() + "and" + incorrectAnswer());
-    }
-  } 
-}
-
-
 // Events and Eventlistener ///
 document.addEventListener("DOMContentLoaded", (event) => {
   console.log("DOM fully loaded and parsed");
@@ -167,4 +142,3 @@ runTimer();
 randomImage();
 comparisonImage ();
 
-newGame.addEventListener('click', run)
