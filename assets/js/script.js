@@ -13,7 +13,7 @@ let seconds = 0;
 const randomIndex = Math.floor(Math.random()*srcArray.length);
 var cards = document.querySelectorAll('.card-inner');
 let index;
-var round = 0;
+var round = 1;
 
 
 // FUNCTIONS ///
@@ -146,11 +146,13 @@ function newRound() {
  * Ending game
  */
 function endGame() {
-  if (round = 5){
-    alert("You found it! Your score is: correct answers: correctAnswer() and incorrect answers: incorrectAnswer()");
-  } else {
-    newRound();
-  }
+  for (let i = 0; i < round; i++) {
+    if (round < 5){
+      newRound();
+    } else {
+      alert("You found it! Your score is: correct answers: correctAnswer() and incorrect answers: incorrectAnswer()");
+    }
+  } 
 }
 
 
