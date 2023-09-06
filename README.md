@@ -63,10 +63,10 @@ The site wants to challenge the user in different ways using this pairing game.
 Here are the drawings of the wireframes:
 
 ![Drawing of landing page on mobile phones](assets/readme-images/wireframe1.png)
-![Drawing of modal screen on mobile phones](assets/readme-images/wireframe2.png)
+
 ![Drawing of exemplary game set up on mobile phones](assets/readme-images/wireframe3.png)
 ![Drawing of landing page on large screens](assets/readme-images/wireframe4.png)
-![Drawing of modal screen on large screens](assets/readme-images/wireframe5.png)
+
 ![Drawing of exemplary game set up on large screens](assets/readme-images/wireframe6.png)
 
 ### Flow Chart
@@ -95,10 +95,6 @@ Here is the previously outlined flow chart:
 - Proper end screen
 - Styling
 
-#### V2 (version 2)
-- Timer options
-- Change number of cards
-- Add new comparison types
 
 ## Features
 
@@ -121,6 +117,17 @@ Here is the previously outlined flow chart:
 ![screenshot of the index page](assets/readme-images/index.png)
 
 ### Features left to implement
+
+There is the possibility to integrate an start screen with more game option
+for the users choice as it can be seen below.
+
+-**V2 (version 2)**
+- Timer options
+- Change number of cards
+- Add new comparison types (text, sound)
+![Drawing of modal screen on mobile phones](assets/readme-images/wireframe2.png)
+![Drawing of modal screen on large screens](assets/readme-images/wireframe5.png)
+
 
 ## Used Technologies
 
