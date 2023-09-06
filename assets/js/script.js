@@ -1,4 +1,4 @@
-// Global variables (still needed)
+// GLOBAL VARIABLES (still needed) ///
 const grid = document.getElementById("grid");
 const showImage = document.getElementById("flip");
 const imgEl = document.getElementById('comp-image');
@@ -13,6 +13,8 @@ let seconds = 0;
 const randomIndex = Math.floor(Math.random()*srcArray.length);
 var cards = document.querySelectorAll('.card-inner');
 
+
+// FUNCTIONS ///
 //random cards - inspired by https://jsbin.com/gazusipeta/1/edit?html,css,js,output
 /**
  * For shuffle the main cards
@@ -45,7 +47,7 @@ function run() {
   shuffleCards();
   flipCards();
 }
-run();
+
 
 
 //displaying random image - inspired by https://openjavascript.info/2022/12/11/random-image-with-javascript/
@@ -77,7 +79,6 @@ function runTimer() {
   }, 1000);
 }
 
-runTimer();
 
 /**
 * For random comparison image
@@ -90,7 +91,7 @@ function randomImage() {
       randomImage();
   }
 }
-randomImage();
+
 
 //Users guess - inspired by https://codepen.io/mondal10/pen/WNNEvjV
 [...cards].forEach((card)=>{
@@ -117,10 +118,23 @@ function correctAnswer() {
   document.getElementById("correct").innerText = ++oldScore;
 }
 
+
 /**
 * Adding point for incorrect answer by getting incorrect score from the DOM and increment it by 1
 */
 //inspired by Love Math project
 function incorrectAnswer() {
   let oldScore = parseInt(document.getElementById("incorrect").innerText);
-  document.getElementById("incorrect").innerText = ++oldScore;}
+  document.getElementById("incorrect").innerText = ++oldScore;
+}
+
+
+
+// Events and Eventlistener ///
+document.addEventListener("DOMContentLoaded", (event) => {
+  console.log("DOM fully loaded and parsed");
+});
+
+run();
+runTimer();
+randomImage();
