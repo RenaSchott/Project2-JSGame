@@ -102,6 +102,7 @@ Here is the previously outlined flow chart:
   - The header includes the name of the game in the middle.
   - On the left and right of the header is the logo of the game displayed.
   - The background color is a dark red.
+  - The text color is beige which refers to the background of the main content and matches nicely with the dark background.
 
 ![screenshot of the header](assets/readme-images/header.png)
 
@@ -109,14 +110,17 @@ Here is the previously outlined flow chart:
 
   - The footer shows all necessary social media icons.
   - The icons for facebook, X and Instagram are clickable and open in a new tab.
-  - The footer has the same background color as the header.
   - The footer section tries to give options for the users to stay informned about the game.
+  - The footer has the same background color as the header.
+  - The icons are beige for the same reasons as the text in the header.
 
 ![screenshot of the footer](assets/readme-images/footer.png)
 
 - **Index page**
 
-  -
+  - On a beige background the game in named and the general game idea as well as the game rules are explained.
+  - The text color is a dark grey with matches nicely the playful font and the beige background color.
+  - The needed "Go to game" button stands out with his light blue background color and brings the user to the game page when clicked.
 
 ![screenshot of the index page](assets/readme-images/index.png)
 
