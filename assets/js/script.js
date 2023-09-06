@@ -150,7 +150,8 @@ function endGame() {
     if (round < 5){
       newRound();
     } else {
-      alert("You found it! Your score is: correct answers: correctAnswer() and incorrect answers: incorrectAnswer()");
+      alert("You found it! Your score is: correct answers: document.getElementById("correct").innerText 
+      and incorrect answers: document.getElementById("incorrect").innerText");
     }
   } 
 }
