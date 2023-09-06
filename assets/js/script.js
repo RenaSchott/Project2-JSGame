@@ -54,7 +54,7 @@ function run() {
 //displaying random image - inspired by https://openjavascript.info/2022/12/11/random-image-with-javascript/
 //and https://www.tutorialspoint.com/how-to-show-images-with-a-click-in-javascript-using-html
 /** Show comparisonImage */
-function comparisonImage () {
+function comparisonImage() {
   showImage.addEventListener("click", () => { 
     imgEl.style.display = "block"; 
   });
@@ -100,7 +100,7 @@ function randomImage() {
       correctAnswer();
       console.log("Matched!");
       alert("You found it!");
-      newRound();
+      endGame();
     } else {
       incorrectAnswer();
       console.log("Not Matched!");
@@ -136,6 +136,7 @@ function incorrectAnswer() {
 function newRound() {
     run();
     runTimer();
+    document.getElementById('comp-image').style.display = 'hidden';
     randomImage();
     comparisonImage();
     round++;
@@ -145,7 +146,7 @@ function newRound() {
  * Ending game
  */
 function endGame() {
-  if (round < 5){
+  if (round = 5){
     alert("You found it! Your score is: correct answers: correctAnswer() and incorrect answers: incorrectAnswer()");
   } else {
     newRound();
@@ -163,6 +164,5 @@ run();
 runTimer();
 randomImage();
 comparisonImage ();
-newRound();
 
 newGame.addEventListener('click', run)
