@@ -12,6 +12,7 @@ let minutes = 0;
 let seconds = 0;
 const randomIndex = Math.floor(Math.random()*srcArray.length);
 var cards = document.querySelectorAll('.card-inner');
+let index;
 
 
 // FUNCTIONS ///
@@ -40,6 +41,8 @@ function flipCards() {
       document.getElementById('comp-image').style.display = 'block';
   }, {once : true});
 }
+
+
 /**
 * For running
 */
@@ -49,14 +52,15 @@ function run() {
 }
 
 
-
 //displaying random image - inspired by https://openjavascript.info/2022/12/11/random-image-with-javascript/
 //and https://www.tutorialspoint.com/how-to-show-images-with-a-click-in-javascript-using-html
-showImage.addEventListener("click", () => { 
-  imgEl.style.display = "block"; 
-});
+/** Show comparisonImage */
+function comparisonImage () {
+  showImage.addEventListener("click", () => { 
+    imgEl.style.display = "block"; 
+  });
+}
 
-let index;
 
 /**
  * Timer starts counting
@@ -138,3 +142,4 @@ document.addEventListener("DOMContentLoaded", (event) => {
 run();
 runTimer();
 randomImage();
+comparisonImage ()
