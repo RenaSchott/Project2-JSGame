@@ -1,15 +1,25 @@
 // Global variables (still needed)
-
+const grid = document.getElementById("grid");
+const showImage = document.getElementById("flip");
+const imgEl = document.getElementById('comp-image');
+const srcArray = ['assets/images/cat.webp', 'assets/images/dog.webp', 'assets/images/elephant.webp', 'assets/images/gorilla.webp',
+'assets/images/horse.webp', 'assets/images/lion.webp', 'assets/images/raven.webp', 'assets/images/wolf.webp'];
+const allCards = document.querySelectorAll(".card-inner");
+const minutesElement = document.getElementById("minutes");
+const secondsElement = document.getElementById("seconds");
+let timer2;
+let minutes = 0;
+let seconds = 0;
+const randomIndex = Math.floor(Math.random()*srcArray.length);
+var cards = document.querySelectorAll('.card-inner');
 
 //random cards - inspired by https://jsbin.com/gazusipeta/1/edit?html,css,js,output
 /**
  * For shuffle the main cards
  */
 function shuffleCards() {
-  const grid = document.getElementById("grid");
   let cards = [...document.getElementsByClassName("card")];
   cards = cards.sort(() => Math.random() - 0.5);
-
   grid.innerHTML = ""
   cards.forEach(card => grid.appendChild(card));
 }
@@ -21,9 +31,7 @@ function shuffleCards() {
 */
 function flipCards() {
   document.getElementById('flip').addEventListener('click', function () {
-      const cards = document.querySelectorAll(".card-inner");
-      // cards.forEach(card => card.classList.toggle('flipped'));
-      cards.forEach(card => card.classList.toggle('flip-card-inner'));
+      allCards.forEach(card => card.classList.toggle('flip-card-inner'));
       if(flip-card-inner === true) {
         document.getElementsByClassName('card-front').style.display = 'hidden';
       }
@@ -42,11 +50,6 @@ run();
 
 //displaying random image - inspired by https://openjavascript.info/2022/12/11/random-image-with-javascript/
 //and https://www.tutorialspoint.com/how-to-show-images-with-a-click-in-javascript-using-html
-const showImage = document.getElementById("flip");
-const imgEl = document.getElementById('comp-image');
-const srcArray = ['assets/images/cat.webp', 'assets/images/dog.webp', 'assets/images/elephant.webp', 'assets/images/gorilla.webp',
-'assets/images/horse. webp', 'assets/images/lion.webp', 'assets/images/raven.webp', 'assets/images/wolf.webp'];
-
 showImage.addEventListener("click", () => { 
   imgEl.style.display = "block"; 
 });
@@ -60,12 +63,7 @@ let index;
 function timerTwoCounting() {
 
 }
-const minutesElement = document.getElementById("minutes");
-const secondsElement = document.getElementById("seconds");
 
-let timer2;
-let minutes = 0;
-let seconds = 0;
 
 function runTimer() {
   timer2 = setInterval(() => {
@@ -85,7 +83,6 @@ runTimer();
 * For random comparison image
 */
 function randomImage() {
-  const randomIndex = Math.floor(Math.random()*srcArray.length);
   if (randomIndex !== index) {
       imgEl.src = srcArray[randomIndex];
       index = randomIndex;
@@ -96,8 +93,6 @@ function randomImage() {
 randomImage();
 
 //Users guess - inspired by https://codepen.io/mondal10/pen/WNNEvjV
-var cards = document.querySelectorAll('.card-inner');
-
 [...cards].forEach((card)=>{
   card.addEventListener('click', function() {
   card.classList.toggle('flip-card-inner');
