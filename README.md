@@ -89,7 +89,7 @@ Here is the previously outlined flow chart:
 #### MVP (minimum viable product)
 
 - Proper start screen
-- Continue the rounds until all cards are found
+- Continue until the card is found
 - End of the game conditions; check all cards
 - Proper end screen
 - Styling
@@ -99,7 +99,8 @@ Here is the previously outlined flow chart:
 
 - **Header**
 
-  - The Header
+  - The Header includes the name of the game in the middle.
+  - On the left and right of the Header is the logo of the game displayed.
 
 ![screenshot of the header](assets/readme-images/header.png)
 
