@@ -1,7 +1,8 @@
 # Find the matching pair
 
-This JavaScript game should be a little challange for the brain. The game should test the visual
-memory of the user with different levels of difficulty for the user to choose.
+Being interested in different memmory challenges, this JavaScript game should 
+be a little challange for the brain. The game should test the visual
+memory of the user, while hopefully having fun.
 
 View the live project here: <https://renaschott.github.io/Project2-JSGame/>
 
@@ -63,10 +64,8 @@ The site wants to challenge the user in different ways using this pairing game.
 Here are the drawings of the wireframes:
 
 ![Drawing of landing page on mobile phones](assets/readme-images/wireframe1.png)
-
 ![Drawing of exemplary game set up on mobile phones](assets/readme-images/wireframe3.png)
 ![Drawing of landing page on large screens](assets/readme-images/wireframe4.png)
-
 ![Drawing of exemplary game set up on large screens](assets/readme-images/wireframe6.png)
 
 ### Flow Chart
