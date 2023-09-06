@@ -21,6 +21,9 @@ function flipCardsListener() {
       const cards = document.querySelectorAll(".card-inner");
       // cards.forEach(card => card.classList.toggle('flipped'));
       cards.forEach(card => card.classList.toggle('flip-card-inner'));
+      if(flip-card-inner === true) {
+        document.getElementsByClassName('card-front').style.display = 'hidden';
+      }
       document.getElementById('comp-image').style.display = 'block';
   }, {once : true});
 }
