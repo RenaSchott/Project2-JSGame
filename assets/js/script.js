@@ -28,6 +28,7 @@ function shuffleCards() {
   cards.forEach(card => grid.appendChild(card));
 }
 
+
 //flipping cards - inspired by https://jsbin.com/deqejekomu/edit?html,css,js,output
 //and https://www.educative.io/answers/how-to-ensure-an-event-listener-is-only-fired-once-in-javascript
 /**
@@ -135,15 +136,14 @@ function incorrectAnswer() {
  * Starting new round
  */
 function newRound() {
-    //counting rounds 
-    //finding the right image
-    run()
+  if (imgEl.src.includes(clickedImage)) {
+    shuffleCards();
+    correctAnswer();
+    run();
     runTimer();
     randomImage();
-    comparisonImage ();
-    //keep score
-    //maybe 5 rounds
-
+    comparisonImage();
+  }
 }
 
 /**
@@ -178,9 +178,3 @@ randomImage();
 comparisonImage ();
 
 
-if (round < 5) {
-  newRound()
-  round ++
-} else {
-  endGame()
-}
