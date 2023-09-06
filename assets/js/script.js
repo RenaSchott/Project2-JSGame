@@ -133,10 +133,39 @@ function incorrectAnswer() {
 }
 
 
+/**
+ * Starting new round
+ */
+function newRound() {
+  run()
+  runTimer();
+  randomImage();
+  comparisonImage ();
+  //keep score
+}
+
+/**
+ * Ending game
+ */
+function endGame() {
+  //new Round
+  //display score
+}
+
+
+/**
+ * Start new game
+ */
+function startNewGame() {
+  //button click
+  //ewset everything
+}
+
 
 // Events and Eventlistener ///
 document.addEventListener("DOMContentLoaded", (event) => {
   console.log("DOM fully loaded and parsed");
+  
 });
 
 run();
