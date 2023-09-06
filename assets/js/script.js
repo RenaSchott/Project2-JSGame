@@ -177,3 +177,10 @@ runTimer();
 randomImage();
 comparisonImage ();
 
+
+if (round < 5) {
+  newRound()
+  round ++
+} else {
+  endGame()
+}
