@@ -339,8 +339,6 @@ and https://jsbin.com/deqejekomu/edit?html,css,js,output*/
       }
 
     /* Game page */
-
-
     #flex {
         float: left;
     }
@@ -349,7 +347,6 @@ and https://jsbin.com/deqejekomu/edit?html,css,js,output*/
         max-width: 48vw;
     }
    
-
     /* Timer */
     .timer {
         margin-top: 38px;

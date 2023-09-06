@@ -13,6 +13,7 @@ let seconds = 0;
 const randomIndex = Math.floor(Math.random()*srcArray.length);
 var cards = document.querySelectorAll('.card-inner');
 let index;
+var round = 0;
 
 
 // FUNCTIONS ///
