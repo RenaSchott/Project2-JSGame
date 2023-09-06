@@ -65,11 +65,6 @@ function comparisonImage () {
  * Timer starts counting
  */
 //Inspired by https://codepen.io/DevelopedByKieran/pen/JjwKbpO
-function timerTwoCounting() {
-
-}
-
-
 function runTimer() {
   timer2 = setInterval(() => {
     minutesElement.innerHTML = "0" + minutes + ":";
@@ -99,16 +94,19 @@ function randomImage() {
 //Users guess - inspired by https://codepen.io/mondal10/pen/WNNEvjV
 [...cards].forEach((card)=>{
   card.addEventListener('click', function() {
-  card.classList.toggle('flip-card-inner');
-  let clickedImage = card.parentElement.dataset.image;
-  if (imgEl.src.includes(clickedImage)) {
-    correctAnswer()
-    console.log("Matched!");
-  } else {
-    incorrectAnswer()
-    console.log("Not Matched!");
-  };
-});
+    card.classList.toggle('flip-card-inner');
+    let clickedImage = card.parentElement.dataset.image;
+    if (imgEl.src.includes(clickedImage)) {
+      correctAnswer();
+      console.log("Matched!");
+      alert("You found it!");
+      newRound();
+    } else {
+      incorrectAnswer();
+      console.log("Not Matched!");
+      alert("Awww.... Try again")
+    };
+  });
 });
  
 
@@ -136,33 +134,22 @@ function incorrectAnswer() {
  * Starting new round
  */
 function newRound() {
-  if (imgEl.src.includes(clickedImage)) {
-    shuffleCards();
-    correctAnswer();
     run();
     runTimer();
     randomImage();
     comparisonImage();
-  }
+    round++;
 }
 
 /**
  * Ending game
  */
 function endGame() {
-  alert("You found it! Your score is: correct answers: correctAnswer() and incorrect answers: incorrectAnswer()");
-  
-  //new Round
-  //display score
-}
-
-
-/**
- * Start new game
- */
-function startNewGame() {
-  //button click
-  //ewset everything
+  if (round < 5){
+    alert("You found it! Your score is: correct answers: correctAnswer() and incorrect answers: incorrectAnswer()");
+  } else {
+    newRound();
+  }
 }
 
 
@@ -176,5 +163,6 @@ run();
 runTimer();
 randomImage();
 comparisonImage ();
+newRound();
 
-
+newGame.addEventListener('click', run)
