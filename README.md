@@ -97,6 +97,8 @@ Here is the previously outlined flow chart:
 
 ## Features
 
+### Index page
+
 - **Header**
 
   - The header includes the name of the game in the middle.
@@ -123,6 +125,10 @@ Here is the previously outlined flow chart:
   - The needed "Go to game" button stands out with his light blue background color and brings the user to the game page when clicked.
 
 ![screenshot of the index page](assets/readme-images/index.png)
+
+### Game page
+
+- 
 
 ### Features left to implement
 
