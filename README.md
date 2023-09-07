@@ -1,5 +1,8 @@
 # Find the matching pair
 
+![Landing page](assets/readme-images/landing.png)
+![Game page](assets/readme-images/game.png)
+
 Being interested in different memmory challenges, this JavaScript game should 
 be a little challange for the brain. The game should test the visual
 memory of the user, while hopefully having fun.
@@ -134,7 +137,7 @@ Here is the previously outlined flow chart:
 
   - This alert welcomes the user as soon as the game page is loaded.
 
-![screenshot of the index page](assets/readme-images/welcome-alert.png)
+![screenshot of the welcome notice](assets/readme-images/welcome-alert.png)
 
 - **Images**
 
@@ -142,14 +145,14 @@ Here is the previously outlined flow chart:
   - The make a nice contrast to the background color.
   - For the game the user needs to remember the place of each specific animal in this grid.
 
-![screenshot of the index page](assets/readme-images/images.png)
+![screenshot of the images](assets/readme-images/images.png)
 
 - **Flip Cards! - Button**
 
   - All buttons are styled the same way (Light blue background and a straight forward font) for better visibility.
   - After looking at the eight displayed images the user needs to push this button for the game to continue.
 
-![screenshot of the index page](assets/readme-images/flip-cards.png)
+![screenshot of the "Flip cards! button](assets/readme-images/flip-cards.png)
 
 - **Timer**
 
@@ -158,16 +161,16 @@ Here is the previously outlined flow chart:
   - The timer starts counting as soon as the game starts.
   - It helps the user to see how much time the user needed to remember all cards.
 
-![screenshot of the index page](assets/readme-images/timer.png)
+![screenshot of the timer](assets/readme-images/timer.png)
 
-- **Cards flipped**
+- **Flipped cards**
 
   - As soon as the "Flip cards" - Button is clicked all eight cards flip simultaniuosly.
   - They reveal a similar background.
   - These card backs have a dark yellow background and a highlighted red question mark on it.
   - These colors match the main background and are contemporaneous not as outstanding as the front cards.
 
-![screenshot of the index page](assets/readme-images/turned-cards.png)
+![screenshot of the flipped cards](assets/readme-images/turned-cards.png)
 
 - **Comparison image**
 
@@ -176,14 +179,14 @@ Here is the previously outlined flow chart:
   - It serves as comparison image.
   - The user has to find the same original image.
 
-![screenshot of the index page](assets/readme-images/comp-image.png)
+![screenshot of the comparison image](assets/readme-images/comp-image.png)
 
 - **Card flip**
 
   - The user needs to find the original image.
   - By clicking on a card back where the user thinks it is the card is flipped back and evaluated.
 
-![screenshot of the index page](assets/readme-images/card-flip.png)
+![screenshot of the card flip](assets/readme-images/card-flip.png)
 
 - **User guess evaluation**
 
@@ -191,8 +194,8 @@ Here is the previously outlined flow chart:
   - Is the user guess wrong an appropriate alert displays and the user can try again while the card stays displayed.
   - Is the user guess right another appropriate alert displays congratulating the user and telling the user that after a short delay the game start new. 
 
-![screenshot of the index page](assets/readme-images/try-again-alert.png)
-![screenshot of the index page](assets/readme-images/endscreen.png)
+![screenshot of the try again alert](assets/readme-images/try-again-alert.png)
+![screenshot of the endscreen](assets/readme-images/endscreen.png)
 
 - **Scores**
 
@@ -200,14 +203,14 @@ Here is the previously outlined flow chart:
   - The playful font is used again.
   - The text is displayed in black and for the numbers are typical colors used to highlight their belonging (green for correct answers and red for incorrect answers).
 
-![screenshot of the index page](assets/readme-images/scores.png)
+![screenshot of the scores](assets/readme-images/scores.png)
 
 - **Rules Button**
 
   - If the user needs to review the rules again the user can click on the "Rules" button to return to the landing page.
   - This button is displayed at the end of the page and styled as sll the other buttons to make clear what it is.
 
-![screenshot of the index page](assets/readme-images/rules-button.png)
+![screenshot of the "Rules" button](assets/readme-images/rules-button.png)
 
 ### Features left to implement
 
