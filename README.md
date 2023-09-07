@@ -310,6 +310,7 @@ for the users choice as it can be seen below.
 ### Validator testing
 
 - **HTML**
+
   - Landing page
     - Error
 
@@ -332,7 +333,10 @@ for the users choice as it can be seen below.
 ![screenshot of the warnings of the game page in HTML validator testing](assets/readme-images/warning-gp-html3.png)
 
 - **CSS**
-  -
+
+  - No errors were found
+
+![screenshot of the evaluation of the CSS file](assets/readme-images/error-css.png)
 
 - **JavaScript**
   -
