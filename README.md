@@ -272,32 +272,17 @@ for the users choice as it can be seen below.
 - The site was tested on different browsers: Chrome, Firefox and Safari.
 - The DevTools confirmed that the page looks good and is functional on different screen sizes.
 - I confirmed that the page is readable.
-- I confirmed that all buttons and click actions work.
+- I confirmed that all buttons, the timer and the click actions work.
 
 | **Feature** | **Expect** | **Action** | **Result** |
 |---------------------|--------------------|--------------------------|------------------------------|
-|**Go to game - Button** | When clicked the user will be forwarded to the game page | Click "Go to game" - button | The user is forwarded to the game page and the welcoming alert is displayed |
-
-
-||||
-
-||||
-
-||||
-
-||||
-
-||||
-
-||||
-
-||||
-
-||||
-
-||||
-
-
+| **Go to game - Button** | When clicked the user will be forwarded to the game page | Click "Go to game" - button | The user is forwarded to the game page and the welcoming alert is displayed |
+| **Welcoming alert** | When game page is loaded a welcoming alert should show and by clicking ok the game should start | Clicking ok | The wkcoming alert is displayed and the game starts after clicking ok |
+| **Flip cards! - Button** | By clicking at the button the eight animal cards should flip and the comparison image should show | Click "Flip cards!" button | The eight images flip revealing the card back and the big comparison image is shown |
+| **Timer** | When the game page is loaded the timer should start counting | Clicking ok at the wilcoming alert | The timer starts counting |
+| **User guess evaluation** | User clicks on a card back and an alert should tell the user whether it is the right image or not. Is it the corresponding image after a delay the game should start again. Is it the wrong guess the card should flip and the user can guess again | Click on one or more images | The corresponding alert shows and the user continues the game or a new game is started |
+| **Scores** | When the user guess right or wrong the corresponding score should be incremented | User clicks on card back | After the evaluation the scores increment | 
+| **Rules - Button** | When the user clicks on the "Rules" button the landing page should load | Click on the "Rules" - button | The landing page is shown |
 
 ### Validator testing
 
