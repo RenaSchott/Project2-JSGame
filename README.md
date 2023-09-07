@@ -262,7 +262,9 @@ for the users choice as it can be seen below.
 - W3C CSS Validator (Jigsaw)
   - was used to validate the css code
 - W3C HTML Validator
-  - was used to validate the HTML Code
+  - was used to validate the HTML code
+- JSHint, a JavaScript Code Quality Tool
+  - was used to validate the JS code
 - Languagetool
   - was used to check the spelling and grammar in the README file.
   
@@ -339,7 +341,14 @@ for the users choice as it can be seen below.
 ![screenshot of the evaluation of the CSS file](assets/readme-images/error-css.png)
 
 - **JavaScript**
-  -
+  
+  - Errors
+    - No errors were found
+  
+  - Warnings
+
+![first screenshot of the evaluation of the JS file](assets/readme-images/js-warning.png)
+![second screenshot of the evaluation of the JS file](assets/readme-images/js-warning2.png)
 
 - **Accessibility**
 
@@ -349,6 +358,7 @@ for the users choice as it can be seen below.
 
 - The described HTML error of the landing page was kept since it did not effect the function. The warning is acceptable.
 - The described HTML errors of the game page were kept since it did not effect the function. The warnings are acceptable.
+- The JS warnings are acceptable.
 
 ## Deployment
 
