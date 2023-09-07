@@ -310,8 +310,27 @@ for the users choice as it can be seen below.
 ### Validator testing
 
 - **HTML**
-  -
-  
+  - Landing page
+    - Error
+
+![screenshot of the error of the landing page in HTML validator testing](assets/readme-images/error-lp-html.png)
+
+    - Warning
+
+![screenshot of the warning of the landing page in HTML validator testing](assets/readme-images/warning-lp-html.png)  
+
+  - Game page
+    - Errors
+
+![screenshot of the error of the game page in HTML validator testing](assets/readme-images/error-gp-html1.png)
+![screenshot of the error of the game page in HTML validator testing](assets/readme-images/error-gp-html2.png)
+
+    - Warnings
+
+![screenshot of the warnings of the game page in HTML validator testing](assets/readme-images/warning-gp-html1.png)
+![screenshot of the warnings of the game page in HTML validator testing](assets/readme-images/warning-gp-html2.png)
+![screenshot of the warnings of the game page in HTML validator testing](assets/readme-images/warning-gp-html3.png)
+
 - **CSS**
   -
 
@@ -323,6 +342,9 @@ for the users choice as it can be seen below.
   -
 
 ### Unfixed bugs
+
+- The described HTML error of the landing page was kept since it did not effect the function. The warning is acceptable.
+- The described HTML errors of the game page were kept since it did not effect the function. The warnings are acceptable.
 
 ## Deployment
 
