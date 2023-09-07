@@ -94,7 +94,6 @@ Here is the previously outlined flow chart:
 - Proper end screen
 - Styling
 
-
 ## Features
 
 ### Index page
@@ -316,25 +315,24 @@ The link to the live page can be found here: [JSGame] (<https://renaschott.githu
 
 ### Content
 
-The content of this project was inspired by the Love Math project, the content of the course
-<https://www.markdownguide.org>
-<https://developer.mozilla.org>
-<https://www.w3schools.com/>
-<https://codepen.io/awkay/pen/ExzGea>
-<https://stackoverflow.com/questions/37604456/how-to-make-a-div-flip-on-button-press>
-<https://codepen.io/DevelopedByKieran/pen/JjwKbpO>
-<https://www.javatpoint.com/javascript-select-option>
-<https://jsbin.com/deqejekomu/edit?html,css,js,output>
-<https://jsbin.com/gazusipeta/1/edit?html,css,js,output>
-<https://www.tutorialspoint.com/how-to-show-images-with-a-click-in-javascript-using-html>
-<https://www.educative.io/answers/how-to-ensure-an-event-listener-is-only-fired-once-in-javascript>
-<https://codepen.io/mondal10/pen/WNNEvjV>
-<https://stackoverflow.com/questions/52824248/how-to-stop-other-code-from-running-until-settimeout-finishes-running>
-<https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Controlling_ratios_of_flex_items_along_the_main_axis>
+The content of this project was inspired by the Love Math project and the content of the course. In general the following websites where used for inspiration:
+  - <https://www.markdownguide.org>
+  - <https://developer.mozilla.org>
+  - <https://www.w3schools.com/>
+Inspirations for specific problems where taken from the following websites:
+  - <https://jsbin.com/gazusipeta/1/edit?html,css,js,output>
+  - <https://jsbin.com/deqejekomu/edit?html,css,js,output>
+  - <https://www.educative.io/answers/how-to-ensure-an-event-listener-is-only-fired-once-in-javascript>
+  - <https://openjavascript.info/2022/12/11/random-image-with-javascript/>
+  - <https://www.tutorialspoint.com/how-to-show-images-with-a-click-in-javascript-using-html>
+  - <https://codepen.io/DevelopedByKieran/pen/JjwKbpO>
+  - <https://codepen.io/mondal10/pen/WNNEvjV>
+  - <https://www.freecodecamp.org/news/refresh-the-page-in-javascript-js-reload-window-tutorial/>
+  - <https://stackoverflow.com/questions/37604456/how-to-make-a-div-flip-on-button-press>
 
 ### Media
 
-Animal images were taken from <https://www.pexels.com>.
+The animal images for the game page were taken from <https://www.pexels.com>.
 The social media icons were taken from <https://fontawesome.com/>.
 The generic 404 page from project 1 was reused here.
 
