@@ -174,10 +174,10 @@ Here is the previously outlined flow chart:
 
 - **Comparison image**
 
-- As soon as the "Flip cards" - Button is clicked a large image is displayed.
-- This image is randomly chosen out of the eight original animal images.
-- It serves as comparison image.
-- The user has to find the same original image.
+  - As soon as the "Flip cards" - Button is clicked a large image is displayed.
+  - This image is randomly chosen out of the eight original animal images.
+  - It serves as comparison image.
+  - The user has to find the same original image.
 
 ![screenshot of the index page](assets/readme-images/comp-image.png)
 
@@ -217,10 +217,11 @@ Here is the previously outlined flow chart:
 There is the possibility to integrate an start screen with more game option
 for the users choice as it can be seen below.
 
--**V2 (version 2)**
-- Timer options
-- Change number of cards
-- Add new comparison types (text, sound)
+- **V2 (version 2)**
+  - Timer options
+  - Change number of cards
+  - Add new comparison types (text, sound)
+
 ![Drawing of modal screen on mobile phones](assets/readme-images/wireframe2.png)
 ![Drawing of modal screen on large screens](assets/readme-images/wireframe5.png)
 
