@@ -118,7 +118,7 @@ Here is the previously outlined flow chart:
 
 ![screenshot of the footer](assets/readme-images/footer.png)
 
-- **Index page**
+- **Main**
 
   - On a beige background the game in named and the general game idea as well as the game rules are explained.
   - The text color is a dark grey with matches nicely the playful font and the beige background color.
@@ -128,7 +128,89 @@ Here is the previously outlined flow chart:
 
 ### Game page
 
-- 
+- **Main**
+
+  - The beige background color is the same as for the landing page.
+  - For normal text the playful font was also used.
+
+- **Welcome notice**
+
+  - This alert welcomes the user as soon as the game page is loaded.
+
+![screenshot of the index page](assets/readme-images/welcome-alert.png)
+
+- **Images**
+
+  - Eight animal images are randomly displayed in a grid.
+  - The make a nice contrast to the background color.
+  - For the game the user needs to remember the place of each specific animal in this grid.
+
+![screenshot of the index page](assets/readme-images/images.png)
+
+- **Flip Cards! - Button**
+
+  - All buttons are styled the same way (Light blue background and a straight forward font) for better visibility.
+  - After looking at the eight displayed images the user needs to push this button for the game to continue.
+
+![screenshot of the index page](assets/readme-images/flip-cards.png)
+
+- **Timer**
+
+  - For better visibility is uses the same font as the buttons but the background color is purple and the font color is red.
+  - This makes it easy to distinguish it from other features.
+  - The timer starts counting as soon as the game starts.
+  - It helps the user to see how much time the user needed to remember all cards.
+
+![screenshot of the index page](assets/readme-images/timer.png)
+
+- **Cards flipped**
+
+  - As soon as the "Flip cards" - Button is clicked all eight cards flip simultaniuosly.
+  - They reveal a similar background.
+  - These card backs have a dark yellow background and a highlighted red question mark on it.
+  - These colors match the main background and are contemporaneous not as outstanding as the front cards.
+
+![screenshot of the index page](assets/readme-images/turned-cards.png)
+
+- **Comparison image**
+
+- As soon as the "Flip cards" - Button is clicked a large image is displayed.
+- This image is randomly chosen out of the eight original animal images.
+- It serves as comparison image.
+- The user has to find the same original image.
+
+![screenshot of the index page](assets/readme-images/comp-image.png)
+
+- **Card flip**
+
+  - The user needs to find the original image.
+  - By clicking on a card back where the user thinks it is the card is flipped back and evaluated.
+
+![screenshot of the index page](assets/readme-images/card-flip.png)
+
+- **User guess evaluation**
+
+  - After the user clicks on a card back the evaluation of the users choice is shown.
+  - Is the user guess wrong an appropriate alert displays and the user can try again while the card stays displayed.
+  - Is the user guess right another appropriate alert displays congratulating the user and telling the user that after a short delay the game start new. 
+
+![screenshot of the index page](assets/readme-images/try-again-alert.png)
+![screenshot of the index page](assets/readme-images/endscreen.png)
+
+- **Scores**
+
+  - The score area is displayed under the images showing how many tries the user needed to find the original image by counting the correct and incorrect answers.
+  - The playful font is used again.
+  - The text is displayed in black and for the numbers are typical colors used to highlight their belonging (green for correct answers and red for incorrect answers).
+
+![screenshot of the index page](assets/readme-images/scores.png)
+
+- **Rules Button**
+
+  - If the user needs to review the rules again the user can click on the "Rules" button to return to the landing page.
+  - This button is displayed at the end of the page and styled as sll the other buttons to make clear what it is.
+
+![screenshot of the index page](assets/readme-images/rules-button.png)
 
 ### Features left to implement
 
