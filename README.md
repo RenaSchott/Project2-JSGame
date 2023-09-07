@@ -267,15 +267,37 @@ for the users choice as it can be seen below.
   
 ## Testing
 
-NOCH ÜBERARBEITEN
+### Manual testing
 
-| so geht eine Liste | nicht wahr |
-|--------------------|----------- |
-| ja                 | das passt  |
-
-- The site was tested on different browsers: Chrome and Firefox.
+- The site was tested on different browsers: Chrome, Firefox and Safari.
 - The DevTools confirmed that the page looks good and is functional on different screen sizes.
 - I confirmed that the page is readable.
+- I confirmed that all buttons and click actions work.
+
+|     **Feature**     |                **Expect**                |                      **Action**                     |                   **Result**                   |
+|---------------------|------------------------------------------|-----------------------------------------------------|------------------------------------------------|
+|**Go to game         | When clicked the user will be forwarded  | Click "Go to game" - button                         | The user is forwarded to the game page and the |
+|   - Button**        | to the game page                         |                                                     | welcoming alert is displayed                   |
+|---------------------|------------------------------------------|-----------------------------------------------------|------------------------------------------------|
+||||
+
+||||
+
+||||
+
+||||
+
+||||
+
+||||
+
+||||
+
+||||
+
+||||
+
+
 
 ### Validator testing
 
