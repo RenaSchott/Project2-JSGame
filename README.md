@@ -20,12 +20,19 @@ View the live project here: <https://renaschott.github.io/Project2-JSGame/>
       - [As the administrator](#as-the-administrator)
     - [Wireframes](#wireframes)
     - [Flow Chart](#flow-chart)
+  - [Method] (#method)
+    - [POC (prove of concept)](#poc-(prove-of-concept))
+    - [MVP (minimum viable product)](#mvp-(minimum-viable-product))
   - [Features](#features)
+    - [Index page](#index-page)
+    - [Game page](#game-page)
     - [Features left to implement](#features-left-to-implement)
   - [Used Technologies](#used-technologies)
     - [Languages Used](#languages-used)
     - [Framework, Libraries and Programs](#framework-libraries-and-programs)
   - [Testing](#testing)
+    - [Manual testing](#manual-testing)
+    - [Testing user stories](#testing-user-stories)
     - [Validator testing](#validator-testing)
     - [Unfixed bugs](#unfixed-bugs)
   - [Deployment](#deployment)
@@ -77,7 +84,7 @@ Here is the previously outlined flow chart:
 
 ### Method
 
-#### POC (prove fo concept)
+#### POC (prove of concept)
 
 - Display cards all front
 - Flip all cards back
@@ -299,7 +306,7 @@ for the users choice as it can be seen below.
 | I want to improve my score | The score is displayed |
 | I want to be entertained | If it fits the users taste it is an entertaining game |
 
-#### As the administrator
+**As the administrator**
 
 | **Expectation - Administrator** | **Result**|
 |--------------|------------|
