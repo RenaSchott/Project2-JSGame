@@ -3,8 +3,8 @@
 ![Landing page](assets/readme-images/landing.png)
 ![Game page](assets/readme-images/game.png)
 
-Being interested in different memmory challenges, this JavaScript game should 
-be a little challange for the brain. The game should test the visual
+Being interested in different memory challenges, this JavaScript game should 
+be a little challenge for the brain. The game should test the visual
 memory of the user, while hopefully having fun.
 
 View the live project here: <https://renaschott.github.io/Project2-JSGame/>
@@ -20,7 +20,7 @@ View the live project here: <https://renaschott.github.io/Project2-JSGame/>
       - [As the administrator](#as-the-administrator)
     - [Wireframes](#wireframes)
     - [Flow Chart](#flow-chart)
-  - [Method] (#method)
+  - [Method](#method)
     - [POC (prove of concept)](#poc-(prove-of-concept))
     - [MVP (minimum viable product)](#mvp-(minimum-viable-product))
   - [Features](#features)
@@ -111,15 +111,15 @@ Here is the previously outlined flow chart:
   - The header includes the name of the game in the middle.
   - On the left and right of the header is the logo of the game displayed.
   - The background color is a dark red.
-  - The text color is beige which refers to the background of the main content and matches nicely with the dark background.
+  - The text color is beige, which refers to the background of the main content and matches nicely with the dark background.
 
 ![screenshot of the header](assets/readme-images/header.png)
 
 - **Footer**
 
   - The footer shows all necessary social media icons.
-  - The icons for facebook, X and Instagram are clickable and open in a new tab.
-  - The footer section tries to give options for the users to stay informned about the game.
+  - The icons for Facebook, X and Instagram are clickable and open in a new tab.
+  - The footer section tries to give options for the users to stay informed about the game.
   - The footer has the same background color as the header.
   - The icons are beige for the same reasons as the text in the header.
 
@@ -127,8 +127,8 @@ Here is the previously outlined flow chart:
 
 - **Main**
 
-  - On a beige background the game in named and the general game idea as well as the game rules are explained.
-  - The text color is a dark grey with matches nicely the playful font and the beige background color.
+  - On a beige background, the game in named and the general game idea as well as the game rules are explained.
+  - The text color is a dark gray with matches nicely the playful font and the beige background color.
   - The needed "Go to game" button stands out with his light blue background color and brings the user to the game page when clicked.
 
 ![screenshot of the index page](assets/readme-images/index.png)
@@ -138,7 +138,7 @@ Here is the previously outlined flow chart:
 - **Main**
 
   - The beige background color is the same as for the landing page.
-  - For normal text the playful font was also used.
+  - For normal text, the playful font was also used.
 
 - **Welcome notice**
 
@@ -149,21 +149,21 @@ Here is the previously outlined flow chart:
 - **Images**
 
   - Eight animal images are randomly displayed in a grid.
-  - The make a nice contrast to the background color.
-  - For the game the user needs to remember the place of each specific animal in this grid.
+  - They make a nice contrast to the background color.
+  - For the game, the user needs to remember the place of each specific animal in this grid.
 
 ![screenshot of the images](assets/readme-images/images.png)
 
 - **Flip Cards! - Button**
 
   - All buttons are styled the same way (Light blue background and a straight forward font) for better visibility.
-  - After looking at the eight displayed images the user needs to push this button for the game to continue.
+  - After looking at the eight displayed images, the user needs to push this button for the game to continue.
 
 ![screenshot of the "Flip cards! button](assets/readme-images/flip-cards.png)
 
 - **Timer**
 
-  - For better visibility is uses the same font as the buttons but the background color is purple and the font color is red.
+  - For better visibility is uses the same font as the buttons, but the background color is purple, and the font color is red.
   - This makes it easy to distinguish it from other features.
   - The timer starts counting as soon as the game starts.
   - It helps the user to see how much time the user needed to remember all cards.
@@ -172,16 +172,16 @@ Here is the previously outlined flow chart:
 
 - **Flipped cards**
 
-  - As soon as the "Flip cards" - Button is clicked all eight cards flip simultaniuosly.
+  - As soon as the "Flip cards" - Button is clicked, all eight cards flip simultaneously.
   - They reveal a similar background.
   - These card backs have a dark yellow background and a highlighted red question mark on it.
-  - These colors match the main background and are contemporaneous not as outstanding as the front cards.
+  - These colors match the main background and are contemporaneous, not as outstanding as the front cards.
 
 ![screenshot of the flipped cards](assets/readme-images/turned-cards.png)
 
 - **Comparison image**
 
-  - As soon as the "Flip cards" - Button is clicked a large image is displayed.
+  - As soon as the "Flip cards" - Button is clicked, a large image is displayed.
   - This image is randomly chosen out of the eight original animal images.
   - It serves as comparison image.
   - The user has to find the same original image.
@@ -191,22 +191,22 @@ Here is the previously outlined flow chart:
 - **Card flip**
 
   - The user needs to find the original image.
-  - By clicking on a card back where the user thinks it is the card is flipped back and evaluated.
+  - By clicking on a card back where the user thinks it is, the card is flipped back and evaluated.
 
 ![screenshot of the card flip](assets/readme-images/card-flip.png)
 
 - **User guess evaluation**
 
-  - After the user clicks on a card back the evaluation of the users choice is shown.
-  - Is the user guess wrong an appropriate alert displays and the user can try again while the card stays displayed.
-  - Is the user guess right another appropriate alert displays congratulating the user and telling the user that after a short delay the game start new. 
+  - After the user clicks on a card back, the evaluation of the user's choice is shown.
+  - Is the user guess wrong, appropriate alert displays and the user can try again while the card stays displayed.
+  - Is the user guess right, another appropriate alert displays congratulating the user and telling the user that after a short delay the game start new. 
 
 ![screenshot of the try again alert](assets/readme-images/try-again-alert.png)
 ![screenshot of the endscreen](assets/readme-images/endscreen.png)
 
 - **Scores**
 
-  - The score area is displayed under the images showing how many tries the user needed to find the original image by counting the correct and incorrect answers.
+  - The score area is displayed under the images, showing how many tries the user needed to find the original image by counting the correct and incorrect answers.
   - The playful font is used again.
   - The text is displayed in black and for the numbers are typical colors used to highlight their belonging (green for correct answers and red for incorrect answers).
 
@@ -214,15 +214,15 @@ Here is the previously outlined flow chart:
 
 - **Rules Button**
 
-  - If the user needs to review the rules again the user can click on the "Rules" button to return to the landing page.
-  - This button is displayed at the end of the page and styled as sll the other buttons to make clear what it is.
+  - If the user needs to review the rules again, the user can click on the "Rules" button to return to the landing page.
+  - This button is displayed at the end of the page and styled as all the other buttons to make clear what it is.
 
 ![screenshot of the "Rules" button](assets/readme-images/rules-button.png)
 
 ### Features left to implement
 
-There is the possibility to integrate an start screen with more game option
-for the users choice as it can be seen below.
+There is the possibility to integrate a start screen with more game option
+for the user's choice, as it can be seen below.
 
 - **V2 (version 2)**
   - Timer options
@@ -267,7 +267,7 @@ for the users choice as it can be seen below.
 - DevTools
   - were used to inspect the code during the development process and to check the accessibility
 - W3C CSS Validator (Jigsaw)
-  - was used to validate the css code
+  - was used to validate the CSS code
 - W3C HTML Validator
   - was used to validate the HTML code
 - JSHint, a JavaScript Code Quality Tool
@@ -286,25 +286,25 @@ for the users choice as it can be seen below.
 
 | **Feature** | **Expect** | **Action** | **Result** |
 |---------------------|--------------------|--------------------------|------------------------------|
-| **Go to game - Button** | When clicked the user will be forwarded to the game page | Click "Go to game" - button | The user is forwarded to the game page and the welcoming alert is displayed |
-| **Welcoming alert** | When game page is loaded a welcoming alert should show and by clicking ok the game should start | Clicking ok | The wkcoming alert is displayed and the game starts after clicking ok |
-| **Flip cards! - Button** | By clicking at the button the eight animal cards should flip and the comparison image should show | Click "Flip cards!" button | The eight images flip revealing the card back and the big comparison image is shown |
-| **Timer** | When the game page is loaded the timer should start counting | Clicking ok at the wilcoming alert | The timer starts counting |
-| **User guess evaluation** | User clicks on a card back and an alert should tell the user whether it is the right image or not. Is it the corresponding image after a delay the game should start again. Is it the wrong guess the card should flip and the user can guess again | Click on one or more images | The corresponding alert shows and the user continues the game or a new game is started |
+| **Go to game - Button** | When clicked, the user will be forwarded to the game page | Click "Go to game" - button | The user is forwarded to the game page and the welcoming alert is displayed |
+| **Welcoming alert** | When game page is loaded a welcoming alert should show and by clicking ok the game should start | Clicking ok | The welcoming alert is displayed, and the game starts after clicking ok |
+| **Flip cards! - Button** | By clicking on the button the eight animal cards should flip, and the comparison image should show | Click "Flip cards!" button | The eight images flip revealing the card back and the big comparison image is shown |
+| **Timer** | When the game page is loaded, the timer should start counting | Clicking ok at the welcoming alert | The timer starts counting |
+| **User guess evaluation** | User clicks on a card back and an alert should tell the user whether it is the right image or not. Is it the corresponding image after a delay, the game should start again. Is it the wrong guess, the card should flip, and the user can guess again | Click on one or more images | The corresponding alert shows and the user continues the game or a new game is started |
 | **Scores** | When the user guess right or wrong the corresponding score should be incremented | User clicks on card back | After the evaluation the scores increment | 
-| **Rules - Button** | When the user clicks on the "Rules" button the landing page should load | Click on the "Rules" - button | The landing page is shown |
+| **Rules - Button** | When the user clicks on the "Rules" button, the landing page should load | Click on the "Rules" - button | The landing page is shown |
 
 ### Testing user stories
 
 | **Expectation - User** | **Result**|
 |--------------|------------|
 | I want to find the rules of the game easily | The rules are directly displayed on the landing page and the user can return to the landing page whenever needed |
-| I want to be able to get better | The user can keep track of the time used and the guesses needed with the help of the timer and the score |
-| I want to play a fun game | If it fits the users taste it is a fun game |
+| I want to be able to get better | The user can keep track of the time used, and the guesses needed with the help of the timer and the score |
+| I want to play a fun game | If it fits the user's taste, it is a fun game |
 | I want to keep track of the score | The score is counted |
 | I want to be able to practice | The user can play as many rounds as the user wants |
 | I want to improve my score | The score is displayed |
-| I want to be entertained | If it fits the users taste it is an entertaining game |
+| I want to be entertained | If it fits the user's taste, it is an entertaining game |
 
 **As the administrator**
 
@@ -369,8 +369,8 @@ for the users choice as it can be seen below.
 
 ### Unfixed bugs
 
-- The described HTML error of the landing page was kept since it did not effect the function. The warning is acceptable.
-- The described HTML errors of the game page were kept since it did not effect the function. The warnings are acceptable.
+- The described HTML error of the landing page was kept, since it did not affect the function. The warning is acceptable.
+- The described HTML errors of the game page were kept since it did not affect the function. The warnings are acceptable.
 - The JS warnings are acceptable.
 - The performances are under the circumstances acceptable.
 
@@ -395,11 +395,11 @@ The link to the live page can be found here: [JSGame] (<https://renaschott.githu
 
 ### Content
 
-The content of this project was inspired by the Love Math project and the content of the course. In general the following websites where used for inspiration:
+The content of this project was inspired by the Love Math project and the content of the course. In general, the following websites were used for inspiration:
   - <https://www.markdownguide.org>
   - <https://developer.mozilla.org>
   - <https://www.w3schools.com/>
-Inspirations for specific problems where taken from the following websites:
+Inspirations for specific problems were taken from the following websites:
   - <https://jsbin.com/gazusipeta/1/edit?html,css,js,output>
   - <https://jsbin.com/deqejekomu/edit?html,css,js,output>
   - <https://www.educative.io/answers/how-to-ensure-an-event-listener-is-only-fired-once-in-javascript>
@@ -418,7 +418,7 @@ The generic 404 page from project 1 was reused here.
 
 ## Acknowledgements
 
-- I thank would love to thank the following persons:
+- I would love to thank the following persons:
   - My mentor for his support
   - The Code Institute tutor support for their fast answers
   - My facilitator for her support
