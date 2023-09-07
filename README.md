@@ -352,13 +352,20 @@ for the users choice as it can be seen below.
 
 - **Accessibility**
 
-  -
+  - Landing page
+
+![screenshot of the lighthouse evaluation of the landing page](assets/readme-images/lighthouse-lp.png)
+
+  - Game page
+
+![screenshot of the lighthouse evaluation of the game page](assets/readme-images/lighthouse-gp.png)
 
 ### Unfixed bugs
 
 - The described HTML error of the landing page was kept since it did not effect the function. The warning is acceptable.
 - The described HTML errors of the game page were kept since it did not effect the function. The warnings are acceptable.
 - The JS warnings are acceptable.
+- The performances are under the circumstances acceptable.
 
 ## Deployment
 
