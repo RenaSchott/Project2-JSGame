@@ -42,9 +42,7 @@ The site wants to challenge the user in different ways using this pairing game.
 #### As a visitor
 
 - I want to find the rules of the game easily
-- I want to get a fast overview of the possible game options
-- I want to adjust different options to my skill level
-- I want to be able to get better and adjust the game
+- I want to be able to get better
 - I want to play a fun game
 - I want to keep track of the score
 - I want to be able to practice
@@ -283,6 +281,28 @@ for the users choice as it can be seen below.
 | **User guess evaluation** | User clicks on a card back and an alert should tell the user whether it is the right image or not. Is it the corresponding image after a delay the game should start again. Is it the wrong guess the card should flip and the user can guess again | Click on one or more images | The corresponding alert shows and the user continues the game or a new game is started |
 | **Scores** | When the user guess right or wrong the corresponding score should be incremented | User clicks on card back | After the evaluation the scores increment | 
 | **Rules - Button** | When the user clicks on the "Rules" button the landing page should load | Click on the "Rules" - button | The landing page is shown |
+
+### Testing user stories
+
+| **Expectation - User** | **Result**|
+|--------------|------------|
+| I want to find the rules of the game easily | The rules are directly displayed on the landing page and the user can return to the landing page whenever needed |
+| I want to be able to get better | The user can keep track of the time used and the guesses needed with the help of the timer and the score |
+| I want to play a fun game | If it fits the users taste it is a fun game |
+| I want to keep track of the score | The score is counted |
+| I want to be able to practice | The user can play as many rounds as the user wants |
+| I want to improve my score | The score is displayed |
+| I want to be entertained | If it fits the users taste it is an entertaining game |
+
+#### As the administrator
+
+| **Expectation - Administrator** | **Result**|
+|--------------|------------|
+| I want to be able to adjust the game if needed | The code is commented and structured |
+| I want to be able to expand the game | The code is commented and structured |
+| I want to be able to easily add new option to the game | The code is commented and structured |
+| I want to be able to easily add new features to the existing game | The code is commented and structured |
+| I want to be able to make visual adjustments | The code is commented and structured |
 
 ### Validator testing
 
