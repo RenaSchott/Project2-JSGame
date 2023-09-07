@@ -274,11 +274,11 @@ for the users choice as it can be seen below.
 - I confirmed that the page is readable.
 - I confirmed that all buttons and click actions work.
 
-|     **Feature**     |                **Expect**                |                      **Action**                     |                   **Result**                   |
-|---------------------|------------------------------------------|-----------------------------------------------------|------------------------------------------------|
-|**Go to game         | When clicked the user will be forwarded  | Click "Go to game" - button                         | The user is forwarded to the game page and the |
-|   - Button**        | to the game page                         |                                                     | welcoming alert is displayed                   |
-|---------------------|------------------------------------------|-----------------------------------------------------|------------------------------------------------|
+| **Feature** | **Expect** | **Action** | **Result** |
+|---------------------|--------------------|--------------------------|------------------------------|
+|**Go to game - Button** | When clicked the user will be forwarded to the game page | Click "Go to game" - button | The user is forwarded to the game page and the welcoming alert is displayed |
+
+
 ||||
 
 ||||
